@@ -98,10 +98,10 @@ async function analyzeCurrentRun() {
 
     try {
         // Load state
-        state = await fetchJSON(`/runs/${currentRun}/state.json`);
+        state = await fetchJSON(`/alssummary/runs/${currentRun}/state.json`);
 
         // Load config to determine test_set
-        const config = await fetchYAML(`/runs/${currentRun}/config.yaml`);
+        const config = await fetchYAML(`/alssummary/runs/${currentRun}/config.yaml`);
         const testSet = config.test_set || 'train';
 
         // Load ground truth Criterion B marks and feedback data
@@ -127,7 +127,7 @@ async function analyzeCurrentRun() {
         await Promise.all(feedbackPromises);
 
         // Load all comparison files
-        const files = await fetch(`/runs/${currentRun}/out.txt`).then(r => r.text()).then(t => t.split("\n"));
+        const files = await fetch(`/alssummary/runs/${currentRun}/out.txt`).then(r => r.text()).then(t => t.split("\n"));
 
         const comparisonFiles = files.filter(f =>
             f.endsWith('.json') &&
@@ -144,7 +144,7 @@ async function analyzeCurrentRun() {
 
         for (let i = 0; i < Math.min(comparisonFiles.length, maxToLoad); i++) {
             loadPromises.push(
-                fetchJSON(`/runs/${currentRun}/${comparisonFiles[i]}`)
+                fetchJSON(`/alssummary/runs/${currentRun}/${comparisonFiles[i]}`)
                     .then(comp => comparisons.push(comp))
                     .catch(() => {}) // Skip failed loads
             );
@@ -1253,17 +1253,17 @@ async function displayResults(rankings, accuracy, flipProbability, trialStats) {
                                 </a>
                             </td>
                             <td style="padding: 8px;">
-                                <a href="/runs/${currentRun}/${c.essay1}-${c.essay2}.json" target="_blank" style="color: #2563eb; text-decoration: none;">
+                                <a href="/alssummary/runs/${currentRun}/${c.essay1}-${c.essay2}.json" target="_blank" style="color: #2563eb; text-decoration: none;">
                                     ${c.forwardWinner === c.essay1 ? 'A wins' : 'B wins'}
                                 </a>
                             </td>
                             <td style="padding: 8px;">
-                                <a href="/runs/${currentRun}/${c.essay2}-${c.essay1}.json" target="_blank" style="color: #2563eb; text-decoration: none;">
+                                <a href="/alssummary/runs/${currentRun}/${c.essay2}-${c.essay1}.json" target="_blank" style="color: #2563eb; text-decoration: none;">
                                     ${c.backwardWinner === c.essay2 ? 'B wins' : 'A wins'}
                                 </a>
                             </td>
                             <td style="padding: 8px;">
-                                <a href="/runs/${currentRun}/reflections/${c.essay1}-${c.essay2}.json" target="_blank" style="color: #2563eb; text-decoration: none;">
+                                <a href="/alssummary/runs/${currentRun}/reflections/${c.essay1}-${c.essay2}.json" target="_blank" style="color: #2563eb; text-decoration: none;">
                                     View
                                 </a>
                             </td>
@@ -1439,8 +1439,8 @@ async function displayResults(rankings, accuracy, flipProbability, trialStats) {
                                     ${predWinnerLabel} (${p.predictedWinner === p.essay1 ? p.grade1 : p.grade2}/6)
                                 </span>
                                 <div style="font-size: 0.85em; color: #666;">
-                                    <a href="/runs/${currentRun}/${p.essay1}-${p.essay2}.json" target="_blank" style="color: #2563eb; text-decoration: none;">A→B</a> |
-                                    <a href="/runs/${currentRun}/${p.essay2}-${p.essay1}.json" target="_blank" style="color: #2563eb; text-decoration: none;">B→A</a>
+                                    <a href="/alssummary/runs/${currentRun}/${p.essay1}-${p.essay2}.json" target="_blank" style="color: #2563eb; text-decoration: none;">A→B</a> |
+                                    <a href="/alssummary/runs/${currentRun}/${p.essay2}-${p.essay1}.json" target="_blank" style="color: #2563eb; text-decoration: none;">B→A</a>
                                 </div>
                             </td>
                             <td style="padding: 8px;">
@@ -1449,7 +1449,7 @@ async function displayResults(rankings, accuracy, flipProbability, trialStats) {
                                 </span>
                             </td>
                             <td style="padding: 8px;">
-                                <a href="/runs/${currentRun}/reflections/${p.essay1}-${p.essay2}.json" target="_blank" style="color: #2563eb; text-decoration: none;">
+                                <a href="/alssummary/runs/${currentRun}/reflections/${p.essay1}-${p.essay2}.json" target="_blank" style="color: #2563eb; text-decoration: none;">
                                     View
                                 </a>
                             </td>

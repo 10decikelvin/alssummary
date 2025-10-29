@@ -106,10 +106,10 @@ async function analyzeCurrentRun() {
 
     try {
         // Load state
-        state = await fetchJSON(`/runs/${currentRun}/state.json`);
+        state = await fetchJSON(`/alssummary/runs/${currentRun}/state.json`);
 
         // Load config to determine test_set
-        const config = await fetchYAML(`/runs/${currentRun}/config.yaml`);
+        const config = await fetchYAML(`/alssummary/runs/${currentRun}/config.yaml`);
         const testSet = config.test_set || 'train';
 
         // Load ground truth Criterion B marks and feedback data
@@ -135,7 +135,7 @@ async function analyzeCurrentRun() {
         await Promise.all(feedbackPromises);
 
         // Load all comparison files
-        const files = await fetch(`/runs/${currentRun}/out.txt`).then(r => r.text()).then(t => t.split("\n"));
+        const files = await fetch(`/alssummary/runs/${currentRun}/out.txt`).then(r => r.text()).then(t => t.split("\n"));
 
         const comparisonFiles = files.filter(f =>
             f.endsWith('.json') &&
@@ -152,7 +152,7 @@ async function analyzeCurrentRun() {
 
         for (let i = 0; i < Math.min(comparisonFiles.length, maxToLoad); i++) {
             loadPromises.push(
-                fetchJSON(`/runs/${currentRun}/${comparisonFiles[i]}`)
+                fetchJSON(`/alssummary/runs/${currentRun}/${comparisonFiles[i]}`)
                     .then(comp => comparisons.push(comp))
                     .catch(() => {}) // Skip failed loads
             );

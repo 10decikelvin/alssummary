@@ -297,17 +297,17 @@ async function displayResults(rankings, accuracy, flipProbability, trialStats, a
                                 </a>
                             </td>
                             <td style="padding: 8px;">
-                                <a href="/runs/${currentRun}/${c.essay1}-${c.essay2}.json" target="_blank" style="color: #2563eb; text-decoration: none;">
+                                <a href="/alssummary/runs/${currentRun}/${c.essay1}-${c.essay2}.json" target="_blank" style="color: #2563eb; text-decoration: none;">
                                     ${c.forwardWinner === c.essay1 ? 'A wins' : 'B wins'}
                                 </a>
                             </td>
                             <td style="padding: 8px;">
-                                <a href="/runs/${currentRun}/${c.essay2}-${c.essay1}.json" target="_blank" style="color: #2563eb; text-decoration: none;">
+                                <a href="/alssummary/runs/${currentRun}/${c.essay2}-${c.essay1}.json" target="_blank" style="color: #2563eb; text-decoration: none;">
                                     ${c.backwardWinner === c.essay2 ? 'B wins' : 'A wins'}
                                 </a>
                             </td>
                             <td style="padding: 8px;">
-                                <a href="/runs/${currentRun}/reflections/${c.essay1}-${c.essay2}.json" target="_blank" style="color: #2563eb; text-decoration: none;">
+                                <a href="/alssummary/runs/${currentRun}/reflections/${c.essay1}-${c.essay2}.json" target="_blank" style="color: #2563eb; text-decoration: none;">
                                     View
                                 </a>
                             </td>
@@ -549,8 +549,8 @@ function renderInaccuratePredictionsSection(inaccuratePredictions, accuratePairs
                                     ${predWinnerLabel} (${p.predictedWinner === p.essay1 ? p.grade1 : p.grade2}/6)
                                 </span>
                                 <div style="font-size: 0.85em; color: #666;">
-                                    <a href="/runs/${currentRun}/${p.essay1}-${p.essay2}.json" target="_blank" style="color: #2563eb; text-decoration: none;">A→B</a> |
-                                    <a href="/runs/${currentRun}/${p.essay2}-${p.essay1}.json" target="_blank" style="color: #2563eb; text-decoration: none;">B→A</a>
+                                    <a href="/alssummary/runs/${currentRun}/${p.essay1}-${p.essay2}.json" target="_blank" style="color: #2563eb; text-decoration: none;">A→B</a> |
+                                    <a href="/alssummary/runs/${currentRun}/${p.essay2}-${p.essay1}.json" target="_blank" style="color: #2563eb; text-decoration: none;">B→A</a>
                                 </div>
                             </td>
                             <td style="padding: 8px;">
@@ -559,7 +559,7 @@ function renderInaccuratePredictionsSection(inaccuratePredictions, accuratePairs
                                 </span>
                             </td>
                             <td style="padding: 8px;">
-                                <a href="/runs/${currentRun}/reflections/${p.essay1}-${p.essay2}.json" target="_blank" style="color: #2563eb; text-decoration: none;">
+                                <a href="/alssummary/runs/${currentRun}/reflections/${p.essay1}-${p.essay2}.json" target="_blank" style="color: #2563eb; text-decoration: none;">
                                     View
                                 </a>
                             </td>
