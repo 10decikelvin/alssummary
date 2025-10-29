@@ -1,0 +1,338 @@
+[
+  {
+    "id": "6258bbdfb4c9ac00130b12af",
+    "session": "N21",
+    "level": "HL",
+    "grade": 7,
+    "title": "Investigating Effect of Temperature on quality of domestic or cooking oil by determining Acid value and saponification value."
+  },
+  {
+    "id": "63281c750394b4001338efdd",
+    "session": "M22",
+    "level": "SL",
+    "grade": 5,
+    "title": "How does the specific heat capacity of aqueous Potassium Nitrate (KNO3(aq)) change with its concentration?"
+  },
+  {
+    "id": "6300e1d08483960013c96f7a",
+    "session": "M22",
+    "level": "SL",
+    "grade": 6,
+    "title": "To what extent do different types of salts (NaCl, KCl, CaCl2, and MgCl2) affect the volume  of melted ice?"
+  },
+  {
+    "id": "66a37d5c3a505e140e33d47d",
+    "session": "M24",
+    "level": "HL",
+    "grade": 6,
+    "title": "To what extent is there a relationship between the temperature (25.0\u00b0C, 50.0\u00b0C, 80.0\u00b0C) of various citrus juices (orange, lemon, lime) and their vitamin C (ascorbic acid) concentration measured by redox titration?"
+  },
+  {
+    "id": "63de49446672960013c5fb10",
+    "session": "N22",
+    "level": "HL",
+    "grade": 7,
+    "title": "To what extent does temperature effect the concentration of Vitamin B6 (pyridoxine hydrochloride) in Nature\u2019s Own tablets (200 mg)? "
+  },
+  {
+    "id": "64aaee85f66fe20013845146",
+    "session": "M23",
+    "level": "SL",
+    "grade": 7,
+    "title": "Investigating the caffeine content (mg) in different brands of black tea (Tetley  Black Tea, American Breakfast Black Tea, Filiz Black Tea, & Red Label Tea) using dichloromethane in a separating funnel"
+  },
+  {
+    "id": "6782469a7adbeeaf5a495d29",
+    "session": "N24",
+    "level": "HL",
+    "grade": 6,
+    "title": "What is the pseudo order of reaction with respect to Methyl Orange and order of reaction with respect to H2O2 in the degradation of Methyl Orange, in the presence of 365nm Ultraviolet Light, through the use of Ultraviolet-Visible Spectrometry (UV-Vis), for concentrations of Hydrogen Peroxide between 1.77 mmol dm-3 (3sf) and 0.110 mmol dm-3  "
+  },
+  {
+    "id": "63305b2723583a0013009278",
+    "session": "M22",
+    "level": "HL",
+    "grade": 6,
+    "title": "How does the voltage (1.5V, 3.0V, 4.5V, 6.0V, 7.5V) affect the mass of zinc deposited on a steel nail after 4 minutes of electroplating?"
+  },
+  {
+    "id": "65d7dd6e146d1c95f42518e3",
+    "session": "N23",
+    "level": "HL",
+    "grade": 5,
+    "title": "How do varying temperatures (15.0\u2103, 20.0\u2103, 25.0\u2103, 30.0\u2103, 35.0\u2103 \u00b1 0.5\u2103) affect the buffer capacity ofpH-balancing facial cleansers when titrated with 0.05mol HCl, measured using a pH probe with its ability resistchanges in pH value of the 1 based on the volume of HCl titrated?"
+  },
+  {
+    "id": "6330aef523583a00130093b9",
+    "session": "M22",
+    "level": "HL",
+    "grade": 4,
+    "title": "Is it possible to determine the hydration enthalpies for ions: \ud835\udc34\ud835\udc54+, \ud835\udc35\ud835\udc5f\u2212, \ud835\udc36\ud835\udc59 \u2212 and \ud835\udc3c \u2212 from enthalpy changes of precipitation reaction for: AgCl, AgI, AgBr and dissolution process of soluble salts of these ions?"
+  },
+  {
+    "id": "62f6608cbf877e0013714aaf",
+    "session": "M22",
+    "level": "HL",
+    "grade": 7,
+    "title": "How does the rate constant of the saponification reaction of ethyl acetate with sodium hydroxide vary with absolute temperature?"
+  },
+  {
+    "id": "66a251f23a505e140ef5f51d",
+    "session": "M24",
+    "level": "HL",
+    "grade": 7,
+    "title": "What is the effect of changing temperatures (10.00, 20.00, 30.00, 40.00, 50.00\u00b0C) on the equilibrium constant, Kc, for the reaction between 0.002 mol dm-3 iron(III) nitrate and 0.002 mol dm-3 potassium thiocyanate?"
+  },
+  {
+    "id": "6409036b718d390014d04afb",
+    "session": "M22",
+    "level": "SL",
+    "grade": 7,
+    "title": "How does varying temperature (19\u00b0C; 22\u00b0C; 29\u00b0C; 31\u00b0C; 39\u00b0C \u00b11\u00b0C) affect the oscillation pattern and duration of a Belousov\u2013Zhabotinsky (BZ) non-linear chemical oscillator, measured by number of oscillation cycles occurred and oscillations per minute?"
+  },
+  {
+    "id": "62d2fec1efe3ca0013f9a37c",
+    "session": "M22",
+    "level": "HL",
+    "grade": 6,
+    "title": "How does the change in acid catalyst (HCl and H2SO4) affect the activation energy of the iodination of propanone?"
+  },
+  {
+    "id": "63858cd45573ed0013c3eb46",
+    "session": "M22",
+    "level": "HL",
+    "grade": 6,
+    "title": "How does the mass of manganese (IV) oxide (MnO2) catalyst used impact the time taken to evolve standard volumes of oxygen gas in the decomposition of hydrogen peroxide?"
+  },
+  {
+    "id": "6203feea59dfc50013182ca9",
+    "session": "M21",
+    "level": "SL",
+    "grade": 7,
+    "title": "How does pH of a water sample affect its biological oxygen demand over a course of 5 days, as found using  the Winkler method?"
+  },
+  {
+    "id": "63e72a19e1386a0014009089",
+    "session": "M22",
+    "level": "SL",
+    "grade": 7,
+    "title": "How does an increase in salt concentration of NaCl in ppt (0.0,  10.0, 20.0, 40.0, 60.0, 80.0, 100.0 \u00b1 0.4 ppt) affects the dissolved oxygen (DO) concentration  measured in ppm in 250.0cm3  of tap water?"
+  },
+  {
+    "id": "63c6d1ecdbb839001334ca83",
+    "session": "N22",
+    "level": "HL",
+    "grade": 7,
+    "title": "How does varying pH of HCl (2.0, 3.0, 4.0, 5.0, 6.0) affect the solubility of iron(II) by measuring the mass of iron(II) extracted from 1 iron tablet via titration with acidified potassium permanganate?"
+  },
+  {
+    "id": "62f626b6bf877e00137147cf",
+    "session": "M22",
+    "level": "SL",
+    "grade": 4,
+    "title": "Using Complexometric Titration will determine how significant is the variation in calcium content (mg) of fresh milk depending on the expiration date?"
+  },
+  {
+    "id": "63cab03a2e34e2001341d360",
+    "session": "N22",
+    "level": "SL",
+    "grade": 6,
+    "title": "How does the dissolved oxygen level changes with change in source of water, depending on their pollution level by comparing secondary data of 4 water bodies, by using Winkler\u2019s method?"
+  },
+  {
+    "id": "633b0582ea84c5001308748a",
+    "session": "M22",
+    "level": "HL",
+    "grade": 6,
+    "title": "Efficiency of alcohols as fuels. The effect of number of carbon atoms in a chain on enthalpy of combustion and boiling point of simple organic homologous alcohol series"
+  },
+  {
+    "id": "631af2ed0394b4001338bffc",
+    "session": "M22",
+    "level": "HL",
+    "grade": 7,
+    "title": "How does the total content of calcium and magnesium free ions relate quantitatively to the total content of protein and the total content of fat in cow\u2019s, almond, coconut, oat, rice and soy milks?"
+  },
+  {
+    "id": "6350e5a32e4197001393aa84",
+    "session": "M22",
+    "level": "SL",
+    "grade": 6,
+    "title": "How does the increase in Concentration of the salt Sodium Chloride affect the concentration of Dissolved  Oxygen of samples of 100cm3 of water from different water sources, when temperature is kept constant?"
+  },
+  {
+    "id": "63d73c18f548e700143802bc",
+    "session": "N22",
+    "level": "HL",
+    "grade": 7,
+    "title": "What is the effect of changing the acid to conjugate base ([A-]/[HA]) concentration ratio (19, 3, 1, 0.333, 0.0526) on the buffering capacity of a Carbonate-Bicarbonate buffer solution as determined by the volume of 0.1M Sodium Hydroxide (NaOH) or 0.1M Hydrochloric Acid (HCl) reacted with the buffer system . "
+  },
+  {
+    "id": "62233e0f4c53040015029c7e",
+    "session": "N21",
+    "level": "HL",
+    "grade": 6,
+    "title": "How does the change in temperature of Acetate buffer affect the pH of the  Acetate buffer when Sodium hydroxide is added?"
+  },
+  {
+    "id": "62e27f8df3cb8f0013903aac",
+    "session": "M22",
+    "level": "HL",
+    "grade": 7,
+    "title": "What is the activation energy, in kJ mol-1, of the 1M sulfuric acid-catalysed iodination of 1M propanone, as determined by analysing the effect of changes in temperature (20\u00baC, 30\u00baC, 40\u00baC, 50\u00baC, 60\u00baC) on the initial rate of reaction, as measured by a colorimeter set on a blue filter (430-490 \u03bb) ."
+  },
+  {
+    "id": "632a390223583a00130064d1",
+    "session": "M21",
+    "level": "SL",
+    "grade": 7,
+    "title": "How does the concentration of Sodium Bicarbonate (20%, 40%, 60%, 80% & 100%) affect the Young\u2019s Modulus of starch based bioplastic?"
+  },
+  {
+    "id": "66a7cbb93a505e140e25b22f",
+    "session": "M24",
+    "level": "SL",
+    "grade": 4,
+    "title": "How do different active ingredients (calcium carbonate, calcium carbonate and magnesium carbonate, and aluminium hydroxide and magnesium carbonate) in different brands of indigestion tablets (antacids A, B, and C) compare in the volume (cm3) of 1M HCl they can neutralise through acid-base titration?"
+  },
+  {
+    "id": "63bd9322d20b8d00132625a5",
+    "session": "N22",
+    "level": "HL",
+    "grade": 6,
+    "title": "What is the effect of different masses of stearin added to paraffin wax candles on its enthalpy of combustion of the candles?"
+  },
+  {
+    "id": "62db31165dddd600131f9724",
+    "session": "M22",
+    "level": "SL",
+    "grade": 7,
+    "title": "What is the Relationship Between Temperature on Ascorbic Acid (Vitamin C) Concentration in Lemon Juice? "
+  },
+  {
+    "id": "63164d1ed7b5030014e0d5c1",
+    "session": "M22",
+    "level": "SL",
+    "grade": 7,
+    "title": "To what extent does the vitamin C (ascorbic acid) content of a bell pepper change with time spent in a boiling water bath?"
+  },
+  {
+    "id": "6374a78147202300134464de",
+    "session": "M22",
+    "level": "HL",
+    "grade": 6,
+    "title": "How has concentration affected enthalpy change of the redox between 6grams of zinc and 25 cm\u00b3 of copper (II) sulphate solution?"
+  },
+  {
+    "id": "63498e0c0c67e90015358f98",
+    "session": "M22",
+    "level": "HL",
+    "grade": 6,
+    "title": "How does varying Magnesium Chloride (MgCl2) concentration affect the solubility of Calcium Sulfate Dihydrate (CaSO4 \u00b72H2O) calculated using Beer-Lambert\u2019s Law?"
+  },
+  {
+    "id": "64749d0bc042b50013daece4",
+    "session": "M22",
+    "level": "HL",
+    "grade": 7,
+    "title": "How does varying salinity and temperature affect the amount of dissolved oxygen(mg/L) in a distilled water sample, measured through Winkler\u2019s titration?"
+  },
+  {
+    "id": "62483f70b4c9ac00130afa08",
+    "session": "M20",
+    "level": "HL",
+    "grade": 6,
+    "title": "The impact of temperature on dissolved oxygen concentration"
+  },
+  {
+    "id": "6382ac0fa7a5c70013364b2b",
+    "session": "M22",
+    "level": "HL",
+    "grade": 6,
+    "title": "What is the mass of calcium carbonate in three different sources: chalk, rangoli powder, and seashells, as determined by two different methodologies: back titration and thermal decomposition?"
+  },
+  {
+    "id": "622cdf5d9a37d700138c33fc",
+    "session": "N21",
+    "level": "SL",
+    "grade": 6,
+    "title": "The effects of different oils with different saturation levels on the rate of the Maillard Reaction through the Colorimetric Evaluation of the Advanced Glycation End Products created."
+  },
+  {
+    "id": "668adc464a9db8886ca2f499",
+    "session": "M24",
+    "level": "HL",
+    "grade": 6,
+    "title": "Investigating the reaction rate of varying concentrations of Household Bleach on Blue Food Dye"
+  },
+  {
+    "id": "63e22f64e1386a0014006310",
+    "session": "N22",
+    "level": "HL",
+    "grade": 6,
+    "title": "a) What is the relationship between the length of the carbon chain (1, 2, 3, 4, 5, and 6 carbon atoms) in the alcohol homologous series and the enthalpy change of combustion ( ? \ud835\udc58\ud835\udc3d\ud835\udc5a\ud835\udc5c\ud835\udc59\u22121) b) What is the impact of the classification (primary, secondary, tertiary) of an alcohol on the enthalpy change of combustion between isomeric alcohols?"
+  },
+  {
+    "id": "64aabd15f66fe20013844ee4",
+    "session": "M23",
+    "level": "HL",
+    "grade": 6,
+    "title": "Which of the 5 processed orange juice brands in the market has the least concentration of Ascorbic acid measured in moldm-3 using acid-base titration with a solution of 0.05 moldm-3 Sodium Hydroxide?"
+  },
+  {
+    "id": "63f63f978fac8600148a5333",
+    "session": "N22",
+    "level": "HL",
+    "grade": 7,
+    "title": "How does varying pH of Cu(II) aqueous solution, under acidic conditions (pH 1.0 \u2013 5.0), affect the percentage removal of Cu2+ ions via orange peels, quantified via UV-vis spectrophotometry?"
+  },
+  {
+    "id": "66b0c5fb7a47d022866f921c",
+    "session": "N22",
+    "level": "SL",
+    "grade": 5,
+    "title": "How does the volumetric concentration of C2H5OH (ethanol) affect the enthalpy of combustion in various gasohol mixtures?"
+  },
+  {
+    "id": "65144fb55f86deff50672ddc",
+    "session": "M23",
+    "level": "HL",
+    "grade": 7,
+    "title": "How does an increase in ionic radii (10-12 m) of central metal ions that are period 4 transition metals (Co2+, Cu2+, Ni2+, Mn2+, Fe2+) affect the energy difference in the d-orbital splitting (KJ/mol) of color complexes calculated through highest absorbance on a spectrophotometer?"
+  },
+  {
+    "id": "62d242af8c5db80013f042b3",
+    "session": "M22",
+    "level": "SL",
+    "grade": 6,
+    "title": " How does the temperature at which raisin and dates flavoured milk  with almond is heated at (20.0 oC, 40.0 oC, 60.0 oC, 80.0 oC, 100.0 oC) affect its calcium  content (in mg) by using Ethylenediaminetetraacetic acid (EDTA) complexometric  titration? "
+  },
+  {
+    "id": "6332a42d23583a001300c890",
+    "session": "M22",
+    "level": "HL",
+    "grade": 7,
+    "title": "Is there a relationship between the rate constant (k) and the temperature of the reaction between oxalic acid and potassium permanganate? Determination of the activation energy."
+  },
+  {
+    "id": "633c74e5ea84c500130879cf",
+    "session": "M22",
+    "level": "SL",
+    "grade": 3,
+    "title": "How do the polyatomic anion and temperature affect the Solubility of Salts of group one metals?"
+  },
+  {
+    "id": "669a586b9509b0754b78e63c",
+    "session": "M24",
+    "level": "HL",
+    "grade": 6,
+    "title": "What is the average rate of reaction (cm^3 s^-1) of 0.5 g of crushed antacids (CaCO3 and MgCO3) in HCl solutions of varying concentrations (0.050mol.dm^-3, 0.100mol dm^-3, 0.250mol dm^-3, 0.500mol dm^-3, 1.000mol dm^-3), measured through the production of CO2 (cm^3) in 2 minutes?"
+  },
+  {
+    "id": "63de57e86672960013c5fb3c",
+    "session": "N22",
+    "level": "HL",
+    "grade": 7,
+    "title": "How does the voltage increase (2V, 4V, 6V, 8V, 10V) in an electrolytic cell affect the percentage mass increase of a copper-nickel cathode after a 10-minute interval?"
+  }
+]

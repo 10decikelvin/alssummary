@@ -91,6 +91,6 @@ A static file server running on port 5500 serving the project root directory.
 - `GET /runs/{run_id}/config.yaml` - Run configuration
 - `GET /runs/{run_id}/` - List comparison files
 - `GET /runs/{run_id}/{essay1_id}-{essay2_id}.json` - Individual comparisons
-- `GET /data_splits/{test_set}_ids.json` - Ground truth grades
+- `GET /alssummary/data_splits/{test_set}_ids.json` - Ground truth grades
 
 All requests use `Accept: application/json` header.

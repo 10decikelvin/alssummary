@@ -105,7 +105,7 @@ async function analyzeCurrentRun() {
         const testSet = config.test_set || 'train';
 
         // Load ground truth Criterion B marks and feedback data
-        const groundTruth = await fetchJSON(`/data_splits/${testSet}_ids.json`);
+        const groundTruth = await fetchJSON(`/alssummary/data_splits/${testSet}_ids.json`);
         groundTruthGrades = {};
         feedbackData = {};
 
