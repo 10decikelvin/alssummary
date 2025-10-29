@@ -1,0 +1,16 @@
+{
+  "essay1_id": "63bd9322d20b8d00132625a5",
+  "essay2_id": "6300e1d08483960013c96f7a",
+  "decision": "essay1",
+  "reasoning": "Both submissions demonstrate a decent understanding of the experimental process, but Paper A is stronger. Paper A presents a more comprehensive approach to experimental design and data analysis. The inclusion of a preliminary investigation to determine the optimal mass of the stearic acid/wax mixture demonstrates foresight and adds rigor to the method. The detailed table outlining sources of error, their type (systematic/random), and specific suggestions for improvement shows a deeper level of critical thinking and evaluation than Paper B. For example, suggesting the use of a bomb calorimeter shows an understanding of more precise scientific equipment. In contrast, Paper B\u2019s method of running each trial sequentially rather than simultaneously introduces a significant confounding variable: the ambient temperature changing over time. While Paper B does identify key variables, its overall experimental control is weaker. Paper A's use of a graph to visually represent the data and its comparison to theoretical values (even if the experimental results were flawed) also indicates a more thorough scientific process. Lastly, the 'Extensions' section in Paper A is more insightful, suggesting investigations into different types of waxes, which is a logical progression from the original experiment.",
+  "raw_model_output": "Prediction(\n    reasoning=\"Both submissions demonstrate a decent understanding of the experimental process, but Paper A is stronger. Paper A presents a more comprehensive approach to experimental design and data analysis. The inclusion of a preliminary investigation to determine the optimal mass of the stearic acid/wax mixture demonstrates foresight and adds rigor to the method. The detailed table outlining sources of error, their type (systematic/random), and specific suggestions for improvement shows a deeper level of critical thinking and evaluation than Paper B. For example, suggesting the use of a bomb calorimeter shows an understanding of more precise scientific equipment. In contrast, Paper B\u2019s method of running each trial sequentially rather than simultaneously introduces a significant confounding variable: the ambient temperature changing over time. While Paper B does identify key variables, its overall experimental control is weaker. Paper A's use of a graph to visually represent the data and its comparison to theoretical values (even if the experimental results were flawed) also indicates a more thorough scientific process. Lastly, the 'Extensions' section in Paper A is more insightful, suggesting investigations into different types of waxes, which is a logical progression from the original experiment.\",\n    decision='Essay A'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 20.99114441871643,
+    "timestamp": "2025-10-28T04:18:41.546804",
+    "run_id": "20251028_041259_3ece",
+    "prompt_hash": "b754d4d2"
+  }
+}

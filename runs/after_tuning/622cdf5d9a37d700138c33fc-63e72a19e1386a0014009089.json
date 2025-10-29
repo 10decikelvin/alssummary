@@ -1,0 +1,16 @@
+{
+  "essay1_id": "622cdf5d9a37d700138c33fc",
+  "essay2_id": "63e72a19e1386a0014009089",
+  "decision": "essay2",
+  "reasoning": "Both essays present well-focused and detailed research questions with appropriate methodologies. Essay A investigates how different oils affect the Maillard reaction, specifying the oils and their saturation levels: \"Sunflower Oil (10% Saturation), Olive Oil (13%), Soybean Oil (16%), Peanut Oil (17%) and Coconut Oil (87%)\". Essay B investigates how salt concentration affects dissolved oxygen, providing a clear range for the independent variable: \"concentration of salt in the water sample in ppt (0.0, 10.0, 20.0, 40.0, 60.0, 80.0, 100.0 \u00b1 0.4)\". Both also provide strong, relevant background information. However, Essay B is stronger in its consideration of safety and environmental factors. As an experimental investigation, Essay A's risk assessment is very brief, noting only \"Oven (High Temperatures)\", \"Glassware (Fragile)\", and \"Heating Plates (High Temperatures)\", and it completely omits any mention of ethical or environmental concerns. In contrast, Essay B provides a detailed table under \"SAFETY AND ENVIRONMENTAL ISSUES\" that outlines specific chemical hazards and first aid measures, and also mentions the need for \"Proper disposal according to lab regulations\" for sulphuric acid, thereby addressing both safety and environmental aspects more thoroughly. This comprehensive approach to experimental responsibility makes Essay B superior in fulfilling the requirements of Criterion B.",
+  "raw_model_output": "Prediction(\n    reasoning='Both essays present well-focused and detailed research questions with appropriate methodologies. Essay A investigates how different oils affect the Maillard reaction, specifying the oils and their saturation levels: \"Sunflower Oil (10% Saturation), Olive Oil (13%), Soybean Oil (16%), Peanut Oil (17%) and Coconut Oil (87%)\". Essay B investigates how salt concentration affects dissolved oxygen, providing a clear range for the independent variable: \"concentration of salt in the water sample in ppt (0.0, 10.0, 20.0, 40.0, 60.0, 80.0, 100.0 \u00b1 0.4)\". Both also provide strong, relevant background information. However, Essay B is stronger in its consideration of safety and environmental factors. As an experimental investigation, Essay A\\'s risk assessment is very brief, noting only \"Oven (High Temperatures)\", \"Glassware (Fragile)\", and \"Heating Plates (High Temperatures)\", and it completely omits any mention of ethical or environmental concerns. In contrast, Essay B provides a detailed table under \"SAFETY AND ENVIRONMENTAL ISSUES\" that outlines specific chemical hazards and first aid measures, and also mentions the need for \"Proper disposal according to lab regulations\" for sulphuric acid, thereby addressing both safety and environmental aspects more thoroughly. This comprehensive approach to experimental responsibility makes Essay B superior in fulfilling the requirements of Criterion B.',\n    decision='essay_b'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 47.8322536945343,
+    "timestamp": "2025-10-28T08:36:15.597781",
+    "run_id": "20251028_082826_77ee",
+    "prompt_hash": "6746104b"
+  }
+}

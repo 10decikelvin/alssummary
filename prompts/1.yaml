@@ -1,0 +1,30 @@
+# Baseline Comparison Prompt v1
+# Naive un-optimized prompt for Criterion B comparison
+
+name: "1"
+description: "First possible mutation candidate"
+
+# Model configuration
+model:
+  provider: "gemini"
+  name: "gemini-2.5-pro"  # Can also use gemini-2.5-pro
+  temperature: 1.0
+
+# Performance tuning
+max_concurrent_requests: 500  # Reduced from 4000 to prevent event loop blocking
+max_tokens: 100000
+
+# Comparison strategy
+comparisons_per_essay: 20  # MUST BE EVEN. Each essay compared with n/2 before and n/2 after in hash-sorted order (circular)
+
+# Which dataset to use for comparisons
+test_set: "train"  # Options: "train" or "test"
+
+# Comparison prompt template
+# Placeholders: {essay_a} and {essay_b} will be replaced with essay content
+prompt: |
+  You are an expert IB examiner evaluating assignments. Decide which one is better. General notes on thinking: ALWAYS quote and think before making any statement.
+
+  Respond with:
+  - reasoning: Detailed explanation of your decision (6 sentences minimum), including your balanced assessment of strengths/weaknesses for both essays
+  - decision: "essay_a" or "essay_b" or "tie"

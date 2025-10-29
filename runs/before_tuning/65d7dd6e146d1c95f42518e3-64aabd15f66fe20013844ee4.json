@@ -1,0 +1,16 @@
+{
+  "essay1_id": "65d7dd6e146d1c95f42518e3",
+  "essay2_id": "64aabd15f66fe20013844ee4",
+  "decision": "essay1",
+  "reasoning": "Both submissions are weak and would likely fail the IA. Neither submission presents any data, analysis, or conclusion. They only provide the introduction, research question, methodology, and some brief discussion points.\n\nHowever, focusing solely on the sections provided, **Sample 1** is stronger. The research question in Sample 1 is more specific and measurable: 'Which of the following five orange juice brands has the lowest amount of ascorbic acid (Vitamin C)?' This is a direct, testable question. In contrast, Sample 2's question, 'How does temperature affect the concentration of vitamin C in orange juice?', is broader and could be interpreted in several ways. The experimental design in Sample 1 is also more detailed, outlining specific volumes and concentrations, which lends itself to a more reproducible experiment. Both samples have significant gaps; for example, they both mention using a pH indicator but don't specify the exact endpoint pH, which is a crucial detail for a titration. Sample 1 also includes a rudimentary risk assessment, which is completely absent in Sample 2. Therefore, based on the provided text, Sample 1 demonstrates a better understanding of the scientific method and experimental design.",
+  "raw_model_output": "Prediction(\n    reasoning=\"Both submissions are weak and would likely fail the IA. Neither submission presents any data, analysis, or conclusion. They only provide the introduction, research question, methodology, and some brief discussion points.\\n\\nHowever, focusing solely on the sections provided, **Sample 1** is stronger. The research question in Sample 1 is more specific and measurable: 'Which of the following five orange juice brands has the lowest amount of ascorbic acid (Vitamin C)?' This is a direct, testable question. In contrast, Sample 2's question, 'How does temperature affect the concentration of vitamin C in orange juice?', is broader and could be interpreted in several ways. The experimental design in Sample 1 is also more detailed, outlining specific volumes and concentrations, which lends itself to a more reproducible experiment. Both samples have significant gaps; for example, they both mention using a pH indicator but don't specify the exact endpoint pH, which is a crucial detail for a titration. Sample 1 also includes a rudimentary risk assessment, which is completely absent in Sample 2. Therefore, based on the provided text, Sample 1 demonstrates a better understanding of the scientific method and experimental design.\",\n    decision='Essay A'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 65.64401745796204,
+    "timestamp": "2025-10-28T04:16:15.728399",
+    "run_id": "20251028_041259_3ece",
+    "prompt_hash": "b754d4d2"
+  }
+}

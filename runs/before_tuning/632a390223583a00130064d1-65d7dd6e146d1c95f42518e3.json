@@ -1,0 +1,16 @@
+{
+  "essay1_id": "632a390223583a00130064d1",
+  "essay2_id": "65d7dd6e146d1c95f42518e3",
+  "decision": "1-2",
+  "reasoning": "Both essays present strong arguments. Both demonstrate excellent engagement with sources regarding existing literature on the subject within the background sections. The analysis provided demonstrates adequate understanding of how the students applied fundamental principles of chemistry throughout their methodology and explanation, and the evaluation of their results is good throughout both responses. However, to distinguish between the two responses, the first text presents a more complete picture of their engagement and investigation process as they include more specific details pertaining to the experiment which helps the reader understand the reason why their hypothesis was only partially confirmed. Furthermore, the first essay provides strong links to both personal connection as well as theory in the introduction, and the data analysis is quite sophisticated in its level of detail. By comparison, the second paper is well researched but lacks some details about how certain calculations were made which made the results less meaningful since they were not contextualized.",
+  "raw_model_output": "Prediction(\n    reasoning='Both essays present strong arguments. Both demonstrate excellent engagement with sources regarding existing literature on the subject within the background sections. The analysis provided demonstrates adequate understanding of how the students applied fundamental principles of chemistry throughout their methodology and explanation, and the evaluation of their results is good throughout both responses. However, to distinguish between the two responses, the first text presents a more complete picture of their engagement and investigation process as they include more specific details pertaining to the experiment which helps the reader understand the reason why their hypothesis was only partially confirmed. Furthermore, the first essay provides strong links to both personal connection as well as theory in the introduction, and the data analysis is quite sophisticated in its level of detail. By comparison, the second paper is well researched but lacks some details about how certain calculations were made which made the results less meaningful since they were not contextualized.',\n    decision='1-2'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 58.41353631019592,
+    "timestamp": "2025-10-28T04:17:06.165466",
+    "run_id": "20251028_041259_3ece",
+    "prompt_hash": "b754d4d2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "essay1_id": "63305b2723583a0013009278",
+  "essay2_id": "62db31165dddd600131f9724",
+  "decision": "essay1",
+  "reasoning": "Essay A presents a more complete and well-defined investigation. Its research question, \"How does the voltage (1.5V, 3.0V, 4.5V, 6.0V, 7.5V) affect the mass of zinc deposited on a steel nail after 4 minutes of electroplating?\", is superior because it clearly specifies the independent variable and its range, the dependent variable, and a key controlled variable (time), making it focused and measurable. In contrast, Essay B's question, \"What is the effect of temperature on the concentration of ascorbic acid (Vitamin C) within lemon juice?\", is clear but lacks this level of specificity. Furthermore, Essay A provides a comprehensive methodology and explicitly lists controlled variables with explanations of how they will be managed, such as keeping temperature constant. Most critically, Essay A includes a dedicated section for \"Safety Practices and Environmental Issues,\" addressing risks like electrocution and chemical irritation, and proper disposal of zinc sulphate. Essay B, while having strong background information explaining the chemical reactions, completely omits any mention of the methodology, controlled variables, safety, or environmental considerations, which is a major weakness for a lab-based investigation.",
+  "raw_model_output": "Prediction(\n    reasoning='Essay A presents a more complete and well-defined investigation. Its research question, \"How does the voltage (1.5V, 3.0V, 4.5V, 6.0V, 7.5V) affect the mass of zinc deposited on a steel nail after 4 minutes of electroplating?\", is superior because it clearly specifies the independent variable and its range, the dependent variable, and a key controlled variable (time), making it focused and measurable. In contrast, Essay B\\'s question, \"What is the effect of temperature on the concentration of ascorbic acid (Vitamin C) within lemon juice?\", is clear but lacks this level of specificity. Furthermore, Essay A provides a comprehensive methodology and explicitly lists controlled variables with explanations of how they will be managed, such as keeping temperature constant. Most critically, Essay A includes a dedicated section for \"Safety Practices and Environmental Issues,\" addressing risks like electrocution and chemical irritation, and proper disposal of zinc sulphate. Essay B, while having strong background information explaining the chemical reactions, completely omits any mention of the methodology, controlled variables, safety, or environmental considerations, which is a major weakness for a lab-based investigation.',\n    decision='essay_a'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 36.899497985839844,
+    "timestamp": "2025-10-28T08:32:29.392251",
+    "run_id": "20251028_082826_77ee",
+    "prompt_hash": "6746104b"
+  }
+}

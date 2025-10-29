@@ -1,0 +1,16 @@
+{
+  "essay1_id": "65d7dd6e146d1c95f42518e3",
+  "essay2_id": "63e22f64e1386a0014006310",
+  "decision": "essay2",
+  "reasoning": "Both submissions provide a solid framework for a chemistry IA. However, they both have areas that could be improved. The student provided in the prompt is missing a rationale for the experiment. Without a proper introduction, it is unclear why the topic was chosen or what the student's personal interest is in the topic. The other student, however, clearly outlines their motivation in the first paragraph, stating, 'Being a consumer of skin care products myself, I have always been intrigued about the ingredients that are in these products...I decided to investigate further...' This personal connection makes for a more engaging and well-defined research question.  The student also does a better job of outlining their procedure, including specific details like using a stopwatch and rinsing the glassware. This indicates a more thorough and careful experimental design.  While both submissions are good, the second one is better due to its clear motivation and detailed methodology.",
+  "raw_model_output": "Prediction(\n    reasoning=\"Both submissions provide a solid framework for a chemistry IA. However, they both have areas that could be improved. The student provided in the prompt is missing a rationale for the experiment. Without a proper introduction, it is unclear why the topic was chosen or what the student's personal interest is in the topic. The other student, however, clearly outlines their motivation in the first paragraph, stating, 'Being a consumer of skin care products myself, I have always been intrigued about the ingredients that are in these products...I decided to investigate further...' This personal connection makes for a more engaging and well-defined research question.  The student also does a better job of outlining their procedure, including specific details like using a stopwatch and rinsing the glassware. This indicates a more thorough and careful experimental design.  While both submissions are good, the second one is better due to its clear motivation and detailed methodology.\",\n    decision='Essay B'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 45.426793336868286,
+    "timestamp": "2025-10-28T04:15:51.507228",
+    "run_id": "20251028_041259_3ece",
+    "prompt_hash": "b754d4d2"
+  }
+}

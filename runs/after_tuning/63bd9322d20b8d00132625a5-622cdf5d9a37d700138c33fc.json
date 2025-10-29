@@ -1,0 +1,16 @@
+{
+  "essay1_id": "63bd9322d20b8d00132625a5",
+  "essay2_id": "622cdf5d9a37d700138c33fc",
+  "decision": "essay2",
+  "reasoning": "Both essays present clear research questions, but Essay B's is more detailed, specifying the analytical method (\"through the Colorimetric Evaluation of the Advanced Glycation End Products created\"). Essay A's RQ, \"What is the effect of different masses of stearin added to paraffin wax candles on its enthalpy of combustion?\" is clear but less detailed. Essay B offers a more comprehensive background, explaining the Maillard reaction and the role of Advanced Glycation End Products (AGEs). In contrast, Essay A provides no specific background information. The methodology in Essay B is thoroughly described, including specific measurements and control variables, whereas Essay A's methodology is limited to just the steps of the experiment without much context. Both essays have sections for safety, but Essay B's is more specific, mentioning 'heat-proof gloves' and handling of specific chemicals, while Essay A's is more general. Although both reports could be improved, Essay B is superior due to its more detailed research question, stronger background information, and more thorough methodology.",
+  "raw_model_output": "Prediction(\n    reasoning='Both essays present clear research questions, but Essay B\\'s is more detailed, specifying the analytical method (\"through the Colorimetric Evaluation of the Advanced Glycation End Products created\"). Essay A\\'s RQ, \"What is the effect of different masses of stearin added to paraffin wax candles on its enthalpy of combustion?\" is clear but less detailed. Essay B offers a more comprehensive background, explaining the Maillard reaction and the role of Advanced Glycation End Products (AGEs). In contrast, Essay A provides no specific background information. The methodology in Essay B is thoroughly described, including specific measurements and control variables, whereas Essay A\\'s methodology is limited to just the steps of the experiment without much context. Both essays have sections for safety, but Essay B\\'s is more specific, mentioning \\'heat-proof gloves\\' and handling of specific chemicals, while Essay A\\'s is more general. Although both reports could be improved, Essay B is superior due to its more detailed research question, stronger background information, and more thorough methodology.',\n    decision='essay_b'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 27.226485013961792,
+    "timestamp": "2025-10-28T17:34:18.487632",
+    "run_id": "20251028_082826_77ee",
+    "prompt_hash": "6746104b"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "essay1_id": "63de49446672960013c5fb10",
+  "essay2_id": "65d7dd6e146d1c95f42518e3",
+  "decision": "b",
+  "reasoning": "Both submissions provide a research question regarding the effect of temperature on vitamin C content. Both investigations mention the same method: titration of vitamin C with DCPIP. The difference between the papers is that Student B's methodology is clearer and has more scientific language, for example, it mentions the use of 'standardised' iodine. While Student A does give some reasoning for the chosen methodology and temperatures, Student B's explanation about why a pH buffer is used and how starch is used as an indicator is better.  Additionally, Student B mentions personal safety considerations, whereas student A does not. Neither of the texts mention environmental considerations but as they are not producing any toxic or large quantities of chemical waste this is not crucial. In summary, Student A has a good experiment but lacks detail, while Student B is more thorough.",
+  "raw_model_output": "Prediction(\n    reasoning=\"Both submissions provide a research question regarding the effect of temperature on vitamin C content. Both investigations mention the same method: titration of vitamin C with DCPIP. The difference between the papers is that Student B's methodology is clearer and has more scientific language, for example, it mentions the use of 'standardised' iodine. While Student A does give some reasoning for the chosen methodology and temperatures, Student B's explanation about why a pH buffer is used and how starch is used as an indicator is better.  Additionally, Student B mentions personal safety considerations, whereas student A does not. Neither of the texts mention environmental considerations but as they are not producing any toxic or large quantities of chemical waste this is not crucial. In summary, Student A has a good experiment but lacks detail, while Student B is more thorough.\",\n    decision='B'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 36.892162561416626,
+    "timestamp": "2025-10-28T08:31:26.996981",
+    "run_id": "20251028_082826_77ee",
+    "prompt_hash": "6746104b"
+  }
+}

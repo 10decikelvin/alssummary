@@ -1,0 +1,16 @@
+{
+  "essay1_id": "63de57e86672960013c5fb3c",
+  "essay2_id": "65d7dd6e146d1c95f42518e3",
+  "decision": "tie",
+  "reasoning": "Both essays address the topic comprehensively however neither essay is stronger than the-form student responses provided. While both responses provide some interesting information regarding their sources and applications, they lack specific details needed to properly evaluate the investigations. \n\t- The first student, though mentioning they used a data logger for their analysis but presents it qualitatively in a results table of words such as 'bubbles were observed in the test-tube'. \n\t- The second essay has a more detailed list of materials and materials and method which allows for a better assessment of its validity. \n\t- The results are clearly displayed in a table but lack units making the results hard to quantify. \n\t- They also don't indicate how many tests they did for each measurement, or if they calculated an average.\n- However, while it lacks important quantitative data. It is well written otherwise, providing good background information. Overall, both responses get an equal low score.",
+  "raw_model_output": "Prediction(\n    reasoning=\"Both essays address the topic comprehensively however neither essay is stronger than the-form student responses provided. While both responses provide some interesting information regarding their sources and applications, they lack specific details needed to properly evaluate the investigations. \\n\\t- The first student, though mentioning they used a data logger for their analysis but presents it qualitatively in a results table of words such as 'bubbles were observed in the test-tube'. \\n\\t- The second essay has a more detailed list of materials and materials and method which allows for a better assessment of its validity. \\n\\t- The results are clearly displayed in a table but lack units making the results hard to quantify. \\n\\t- They also don't indicate how many tests they did for each measurement, or if they calculated an average.\\n- However, while it lacks important quantitative data. It is well written otherwise, providing good background information. Overall, both responses get an equal low score. \",\n    decision='Tie'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 52.74717116355896,
+    "timestamp": "2025-10-28T04:16:04.833857",
+    "run_id": "20251028_041259_3ece",
+    "prompt_hash": "b754d4d2"
+  }
+}

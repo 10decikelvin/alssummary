@@ -1,0 +1,16 @@
+{
+  "essay1_id": "669a586b9509b0754b78e63c",
+  "essay2_id": "65d7dd6e146d1c95f42518e3",
+  "decision": "essay1",
+  "reasoning": "The research question for both essays is clear, and they have identified their variables. However, both of them are flawed in different ways. In experiment A, the scientific context is described in detail, including key formulas. In experiment B, the background information lacks such detail. Both experiments have correctly identified the dependent and independent variables with an appropriate range and method of measurement. Both experiments also list safety hazards for each chemical used and the procedures taken to minimize the risks. Both experiments lack environmental considerations but clearly explain how any chemicals were disposed of. Overall, experiment A is better due to its comprehensive background information, providing a better justification for the research question.",
+  "raw_model_output": "Prediction(\n    reasoning='The research question for both essays is clear, and they have identified their variables. However, both of them are flawed in different ways. In experiment A, the scientific context is described in detail, including key formulas. In experiment B, the background information lacks such detail. Both experiments have correctly identified the dependent and independent variables with an appropriate range and method of measurement. Both experiments also list safety hazards for each chemical used and the procedures taken to minimize the risks. Both experiments lack environmental considerations but clearly explain how any chemicals were disposed of. Overall, experiment A is better due to its comprehensive background information, providing a better justification for the research question.',\n    decision='Essay A is better than Essay B'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 38.87571334838867,
+    "timestamp": "2025-10-28T08:29:37.140188",
+    "run_id": "20251028_082826_77ee",
+    "prompt_hash": "6746104b"
+  }
+}

@@ -1,0 +1,56 @@
+_hash: b754d4d2
+comparisons_per_essay: 20
+description: Optimized from 1 based on 30 conflicts and 5 agreements
+max_concurrent_requests: 500
+max_tokens: 100000
+model:
+  name: gemini-2.5-pro
+  provider: gemini
+  temperature: 1.0
+name: '1_2'
+prompt: 'You are an expert IB examiner evaluating assignments. Before making your
+  decision, systematically evaluate BOTH essays against ALL Criterion B elements:
+
+  1. Research Question: Is it present, focused, detailed, and clearly states variables?
+
+  2. Background: Is it relevant, focused, well-organized, and includes necessary chemistry?
+
+  3. Methodology: Is it appropriate, detailed, and focused on answering the RQ?
+
+  4. Variables: Are ALL variables (independent, dependent, controlled) correctly identified
+  with justifications?
+
+  5. Safety/Ethical/Environmental: Are ALL THREE explicitly addressed or justified
+  as not applicable?
+
+
+  PRIORITIZE foundational completeness: A clear research question, appropriate methodology,
+  and comprehensive safety/ethical/environmental awareness are MORE important than
+  theoretical sophistication. An essay with fundamental gaps cannot be rated higher
+  than one that addresses all basic requirements, regardless of complexity.
+
+
+  Decide which one is better. General notes on thinking: ALWAYS quote specific text
+  from the correct essay before making any claim. Before attributing ANY feature to
+  an essay, verify it appears in that essay''s text. If comparing Essay A vs Essay
+  B, Essay A is ALWAYS the first essay provided, Essay B is ALWAYS the second essay
+  provided, regardless of comparison direction.
+
+
+  Respond with:
+
+  - reasoning: Detailed explanation (8+ sentences) that MUST include: (a) specific
+  quoted strengths of each essay, (b) specific quoted weaknesses of each essay, (c)
+  comparison of how each essay addresses research question, methodology, variables,
+  and safety/ethical/environmental considerations, (d) justification for which essay
+  better fulfills Criterion B overall
+
+  - decision: "essay_a" or "essay_b" or "tie"
+
+
+  Before finalizing your decision, verify: Does this decision align with which essay
+  has (1) a clearer, more detailed research question, (2) more appropriate and complete
+  methodology, (3) correctly identified variables, and (4) comprehensive safety/ethical/environmental
+  considerations? If foundational elements are split, favor the essay with fewer fundamental
+  gaps.'
+test_set: train

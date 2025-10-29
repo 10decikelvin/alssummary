@@ -1,0 +1,16 @@
+{
+  "essay1_id": "6782469a7adbeeaf5a495d29",
+  "essay2_id": "63bd9322d20b8d00132625a5",
+  "decision": "essay2",
+  "reasoning": "The student has demonstrated a good understanding of how to evaluate an experiment. The student identifies both systematic and random errors and correctly states their effect on the final results. The student has also gone a step further in suggesting improvements for each error. The weaknesses of this IA would be in the lack of depth when evaluating some of the sources of error. For example, the student could have identified the specific reactions that occur during the incomplete combustion of the candle, and elaborate on why the incomplete combustion would have caused a lower enthalpy of combustion. The student could have also elaborated on how a draft shield or a copper calorimeter could be used to reduce heat loss. The explanation of the random error is also slightly superficial but nonetheless sufficient. Overall, this is an excellent evaluation of an experiment, with minor areas of improvements. The student is hence, likely to score highly for this section.",
+  "raw_model_output": "Prediction(\n    reasoning='The student has demonstrated a good understanding of how to evaluate an experiment. The student identifies both systematic and random errors and correctly states their effect on the final results. The student has also gone a step further in suggesting improvements for each error. The weaknesses of this IA would be in the lack of depth when evaluating some of the sources of error. For example, the student could have identified the specific reactions that occur during the incomplete combustion of the candle, and elaborate on why the incomplete combustion would have caused a lower enthalpy of combustion. The student could have also elaborated on how a draft shield or a copper calorimeter could be used to reduce heat loss. The explanation of the random error is also slightly superficial but nonetheless sufficient. Overall, this is an excellent evaluation of an experiment, with minor areas of improvements. The student is hence, likely to score highly for this section.',\n    decision='Essay B'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 29.170401334762573,
+    "timestamp": "2025-10-28T04:19:25.309162",
+    "run_id": "20251028_041259_3ece",
+    "prompt_hash": "b754d4d2"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "essay_a_id": "64aabd15f66fe20013844ee4",
+  "essay_b_id": "64aaee85f66fe20013845146",
+  "ground_truth": {
+    "essay_a_mark": 5,
+    "essay_b_mark": 4,
+    "difference": 1,
+    "winner": "Essay A demonstrates better Criterion B quality"
+  },
+  "grading_context": "None",
+  "essay_quality_analysis": "None",
+  "what_went_well": [
+    "None"
+  ],
+  "even_better_if": [
+    "None"
+  ],
+  "metadata": {
+    "model": "gemini/gemini-2.5-flash",
+    "timestamp": "2025-10-28T08:29:44.477173",
+    "run_id": "20251028_082826_77ee",
+    "has_forward_comparison": false,
+    "has_backward_comparison": true,
+    "raw_output": {
+      "grading_context": "None",
+      "essay_quality_analysis": "None",
+      "what_went_well": "None",
+      "even_better_if": "None"
+    }
+  }
+}

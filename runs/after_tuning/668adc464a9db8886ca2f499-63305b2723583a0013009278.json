@@ -1,0 +1,16 @@
+{
+  "essay1_id": "668adc464a9db8886ca2f499",
+  "essay2_id": "63305b2723583a0013009278",
+  "decision": "essay1",
+  "reasoning": "Both essays present well-structured and detailed explorations. Essay A's research question is exceptionally clear and specific, stating not only the independent and dependent variables but also the precise concentrations to be tested and the method of measurement: \"What is the reaction rate of different concentrations of bleach (0.2563mol dm-3, ...) reacting with blue food colouring, determined by a spectrophotometer?\". This is superior to Essay B's question, which, while good, is slightly less detailed. The background section in both essays is relevant and demonstrates understanding, but Essay A's inclusion of the process to determine the initial concentration of the commercial bleach via titration shows a more thorough preliminary investigation. Both have well-defined variables, but Essay A's justification for each controlled variable in a table is more comprehensive. The methodology in both is logical and repeatable, but again, Essay A's pre-test to determine the optimal wavelength for the spectrophotometer highlights a more meticulous experimental design. Both essays address safety and environmental concerns appropriately. However, the depth of preliminary work and the detailed justification of the methodology give Essay A the edge.",
+  "raw_model_output": "Prediction(\n    reasoning='Both essays present well-structured and detailed explorations. Essay A\\'s research question is exceptionally clear and specific, stating not only the independent and dependent variables but also the precise concentrations to be tested and the method of measurement: \"What is the reaction rate of different concentrations of bleach (0.2563mol dm-3, ...) reacting with blue food colouring, determined by a spectrophotometer?\". This is superior to Essay B\\'s question, which, while good, is slightly less detailed. The background section in both essays is relevant and demonstrates understanding, but Essay A\\'s inclusion of the process to determine the initial concentration of the commercial bleach via titration shows a more thorough preliminary investigation. Both have well-defined variables, but Essay A\\'s justification for each controlled variable in a table is more comprehensive. The methodology in both is logical and repeatable, but again, Essay A\\'s pre-test to determine the optimal wavelength for the spectrophotometer highlights a more meticulous experimental design. Both essays address safety and environmental concerns appropriately. However, the depth of preliminary work and the detailed justification of the methodology give Essay A the edge.',\n    decision='essay_a'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 44.69577598571777,
+    "timestamp": "2025-10-28T08:33:28.066272",
+    "run_id": "20251028_082826_77ee",
+    "prompt_hash": "6746104b"
+  }
+}

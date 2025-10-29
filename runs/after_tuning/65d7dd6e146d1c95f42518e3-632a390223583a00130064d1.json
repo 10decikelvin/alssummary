@@ -1,0 +1,16 @@
+{
+  "essay1_id": "65d7dd6e146d1c95f42518e3",
+  "essay2_id": "632a390223583a00130064d1",
+  "decision": "essay2",
+  "reasoning": "Both essays present clear research questions, but Essay B's question \"To what extent does the mass of sodium bicarbonate (20g, 40g, 60g, 80g and 100g) added to the potato starch based bioplastic affect the tensile strength (measured in Newtons (N)) of the bioplastic?\" is more precise, specifying the measured unit for the dependent variable (Newtons). In contrast, Essay A simply states 'tensile strength (N)' without defining how it will be measured. The methodology in Essay B is also described with greater detail and clarity, outlining the procedure for casting and testing the plastic strips. For example, Essay B mentions a 'dog-bone' shape for the strips, a standard for tensile testing, and provides the exact dimensions. Essay A, however, is vague on the sample preparation. Both essays list relevant controlled variables. Regarding safety, both appropriately identify risks associated with heating and handling chemicals and propose sound safety measures like using safety goggles and lab coats. Overall, Essay B is superior due to its more specific research question and more detailed and rigorous methodology, which would allow for better replication and more reliable data collection.",
+  "raw_model_output": "Prediction(\n    reasoning='Both essays present clear research questions, but Essay B\\'s question \"To what extent does the mass of sodium bicarbonate (20g, 40g, 60g, 80g and 100g) added to the potato starch based bioplastic affect the tensile strength (measured in Newtons (N)) of the bioplastic?\" is more precise, specifying the measured unit for the dependent variable (Newtons). In contrast, Essay A simply states \\'tensile strength (N)\\' without defining how it will be measured. The methodology in Essay B is also described with greater detail and clarity, outlining the procedure for casting and testing the plastic strips. For example, Essay B mentions a \\'dog-bone\\' shape for the strips, a standard for tensile testing, and provides the exact dimensions. Essay A, however, is vague on the sample preparation. Both essays list relevant controlled variables. Regarding safety, both appropriately identify risks associated with heating and handling chemicals and propose sound safety measures like using safety goggles and lab coats. Overall, Essay B is superior due to its more specific research question and more detailed and rigorous methodology, which would allow for better replication and more reliable data collection.',\n    decision='Essay B'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 42.00578808784485,
+    "timestamp": "2025-10-28T08:31:16.346102",
+    "run_id": "20251028_082826_77ee",
+    "prompt_hash": "6746104b"
+  }
+}

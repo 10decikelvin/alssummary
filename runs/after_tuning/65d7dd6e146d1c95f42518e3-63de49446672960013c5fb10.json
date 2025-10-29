@@ -1,0 +1,16 @@
+{
+  "essay1_id": "65d7dd6e146d1c95f42518e3",
+  "essay2_id": "63de49446672960013c5fb10",
+  "decision": "essay1",
+  "reasoning": "Both essays present strong methodologies and address key experimental design components. Essay A's research question is slightly more specific, stating 'How do varying temperatures (15\u00b0C, 30\u00b0C, 45\u00b0C, 60\u00b0C and 75\u00b0C) affect the rate of fermentation of glucose by yeast (Saccharomyces cerevisiae), measured by the volume of CO2 produced?' which clearly defines both the independent and dependent variables and their measurement. Essay B's question is also good but slightly less precise about the measured outcome, stating 'to what extent does temperature... affect the buffer capacity...' rather than a specific measurable parameter like pH change. The background information in both is relevant, though Essay A's explanation of anaerobic respiration and its link to temperature is particularly well-detailed. Both methodologies are sound and repeatable. Essay A's risk assessment is slightly more comprehensive, explicitly addressing the use of glassware and sugar solutions. While Essay B mentions waste disposal, Essay A's focus on immediate lab safety is more thorough. Therefore, due to the slightly more focused research question and more comprehensive risk assessment, Essay A is marginally stronger.",
+  "raw_model_output": "Prediction(\n    reasoning=\"Both essays present strong methodologies and address key experimental design components. Essay A's research question is slightly more specific, stating 'How do varying temperatures (15\u00b0C, 30\u00b0C, 45\u00b0C, 60\u00b0C and 75\u00b0C) affect the rate of fermentation of glucose by yeast (Saccharomyces cerevisiae), measured by the volume of CO2 produced?' which clearly defines both the independent and dependent variables and their measurement. Essay B's question is also good but slightly less precise about the measured outcome, stating 'to what extent does temperature... affect the buffer capacity...' rather than a specific measurable parameter like pH change. The background information in both is relevant, though Essay A's explanation of anaerobic respiration and its link to temperature is particularly well-detailed. Both methodologies are sound and repeatable. Essay A's risk assessment is slightly more comprehensive, explicitly addressing the use of glassware and sugar solutions. While Essay B mentions waste disposal, Essay A's focus on immediate lab safety is more thorough. Therefore, due to the slightly more focused research question and more comprehensive risk assessment, Essay A is marginally stronger.\",\n    decision='Essay A'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 34.168238401412964,
+    "timestamp": "2025-10-28T08:31:04.505649",
+    "run_id": "20251028_082826_77ee",
+    "prompt_hash": "6746104b"
+  }
+}

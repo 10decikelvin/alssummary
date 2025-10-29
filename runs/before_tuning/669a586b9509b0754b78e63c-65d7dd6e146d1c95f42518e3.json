@@ -1,0 +1,16 @@
+{
+  "essay1_id": "669a586b9509b0754b78e63c",
+  "essay2_id": "65d7dd6e146d1c95f42518e3",
+  "decision": "essay1",
+  "reasoning": "The response on top, while having a slightly unclear title and weak introduction, demonstrates a better overall quality of critical thinking and detailed analysis.  While the student struggles occasionally to stay focused on the-at-awesome-from the chosen sources, they do make a thoughtful attempt to connect the research results to the conclusion. The second response is too generally descriptive and doesn'-t make strong connections to the sources that are referenced. The candidate does a good job of showing a great deal of information, but lacks the personal voice, independent critical thinking or focus on analyzing the sources to score highly on the research criterion. Both responses use an overly simple experimental procedure, although the second student does seem more realistic about what can be to be explored in an internal assessment like this.  The focus is very general, which does not allow for a clear research question that can be answered in a concise manner within the limited scope of the IBO IA. For example the phrasing of both questions does not specify what aspect of being 'active' will be examined (e-cigarettes, vape pens etc.). They mention only the general term vaping. The experiment seems valid, but as noted for the second response, the conclusion did not fully use the results collected and also failed to mention potential sources for uncertainties.",
+  "raw_model_output": "Prediction(\n    reasoning=\"The response on top, while having a slightly unclear title and weak introduction, demonstrates a better overall quality of critical thinking and detailed analysis.  While the student struggles occasionally to stay focused on the-at-awesome-from the chosen sources, they do make a thoughtful attempt to connect the research results to the conclusion. The second response is too generally descriptive and doesn'-t make strong connections to the sources that are referenced. The candidate does a good job of showing a great deal of information, but lacks the personal voice, independent critical thinking or focus on analyzing the sources to score highly on the research criterion. Both responses use an overly simple experimental procedure, although the second student does seem more realistic about what can be to be explored in an internal assessment like this.  The focus is very general, which does not allow for a clear research question that can be answered in a concise manner within the limited scope of the IBO IA. For example the phrasing of both questions does not specify what aspect of being 'active' will be examined (e-cigarettes, vape pens etc.). They mention only the general term vaping. The experiment seems valid, but as noted for the second response, the conclusion did not fully use the results collected and also failed to mention potential sources for uncertainties.\",\n    decision='Essay B is slightly better than Essay A'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 42.71820378303528,
+    "timestamp": "2025-10-28T04:14:13.870335",
+    "run_id": "20251028_041259_3ece",
+    "prompt_hash": "b754d4d2"
+  }
+}

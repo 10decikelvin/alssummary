@@ -1,0 +1,18 @@
+{
+  "run_id": "20251028_082826_77ee",
+  "prompt_file": "1_1_1",
+  "prompt_hash": "6746104b",
+  "test_set": "train",
+  "started_at": "2025-10-28T08:28:26.471113",
+  "completed_at": "2025-10-28T17:36:56.265742",
+  "complete": true,
+  "total_pairs": 960,
+  "completed_pairs": 960,
+  "failed_pairs": 0,
+  "stats": {
+    "total_api_calls": 960,
+    "total_tokens": 0,
+    "total_latency_seconds": 29204.528065919876,
+    "avg_latency_seconds": 30.421383401999872
+  }
+}

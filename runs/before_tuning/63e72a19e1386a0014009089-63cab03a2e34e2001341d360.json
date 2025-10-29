@@ -1,0 +1,16 @@
+{
+  "essay1_id": "63e72a19e1386a0014009089",
+  "essay2_id": "63cab03a2e34e2001341d360",
+  "decision": "essay1",
+  "reasoning": "Essay A presents a more scientifically rigorous and focused investigation. Its research question is clear, specific, and establishes a quantifiable relationship between a continuous independent variable (NaCl concentration) and a dependent variable (dissolved oxygen). The background information provides a strong theoretical basis for the hypothesis, delving into the chemical principles of solubility and the 'salting out' effect. The methodology is well-structured, and the identification and control of variables are explicitly detailed with justifications. In contrast, Essay B's research question is less precise, confusingly mentioning 'secondary data' while describing a primary investigation, and relies on a categorical independent variable ('source of water') which is then subjectively linked to 'pollution level'. While Essay B's procedure is detailed, particularly with the inclusion of standardizing the thiosulfate solution, the fundamental design of the experiment in Essay A is superior for a controlled scientific inquiry. Essay A's clear link between a measurable independent variable and the dependent variable makes it a better example of the Exploration criterion.",
+  "raw_model_output": "Prediction(\n    reasoning=\"Essay A presents a more scientifically rigorous and focused investigation. Its research question is clear, specific, and establishes a quantifiable relationship between a continuous independent variable (NaCl concentration) and a dependent variable (dissolved oxygen). The background information provides a strong theoretical basis for the hypothesis, delving into the chemical principles of solubility and the 'salting out' effect. The methodology is well-structured, and the identification and control of variables are explicitly detailed with justifications. In contrast, Essay B's research question is less precise, confusingly mentioning 'secondary data' while describing a primary investigation, and relies on a categorical independent variable ('source of water') which is then subjectively linked to 'pollution level'. While Essay B's procedure is detailed, particularly with the inclusion of standardizing the thiosulfate solution, the fundamental design of the experiment in Essay A is superior for a controlled scientific inquiry. Essay A's clear link between a measurable independent variable and the dependent variable makes it a better example of the Exploration criterion.\",\n    decision='essay_a'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 49.349677085876465,
+    "timestamp": "2025-10-28T04:14:09.268483",
+    "run_id": "20251028_041259_3ece",
+    "prompt_hash": "b754d4d2"
+  }
+}

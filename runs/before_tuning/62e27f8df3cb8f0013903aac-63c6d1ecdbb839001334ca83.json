@@ -1,0 +1,16 @@
+{
+  "essay1_id": "62e27f8df3cb8f0013903aac",
+  "essay2_id": "63c6d1ecdbb839001334ca83",
+  "decision": "essay1",
+  "reasoning": "Both submissions are excellent and demonstrate a strong understanding of the scientific process, meeting the criteria for the top mark band in Exploration. Both have clear, focused research questions, well-structured methodologies, and thorough considerations for variables and safety.\n\nHowever, Essay A has a slight edge for a few reasons. The background information in Essay A is more comprehensive, providing a detailed explanation of the underlying chemical principles, including the reaction mechanism and the Arrhenius equation. This demonstrates a deeper theoretical understanding that directly supports the experimental design. Furthermore, the \"Preliminary Testing\" section in Essay A is more detailed and showcases a more robust process of methodological refinement, justifying choices like the temperature range and the decision to omit cuvette caps. This shows a higher degree of personal engagement and critical thinking in the design phase.\n\nEssay B is also very strong, with a well-justified research question linked to a real-world application (anemia) and a thorough, replicable procedure. Its discussion on safety and waste disposal is slightly more specific than Essay A's. However, the theoretical depth and the detailed account of preliminary work give Essay A a minor advantage in demonstrating a more complete and well-thought-out investigation from conception to execution.",
+  "raw_model_output": "Prediction(\n    reasoning='Both submissions are excellent and demonstrate a strong understanding of the scientific process, meeting the criteria for the top mark band in Exploration. Both have clear, focused research questions, well-structured methodologies, and thorough considerations for variables and safety.\\n\\nHowever, Essay A has a slight edge for a few reasons. The background information in Essay A is more comprehensive, providing a detailed explanation of the underlying chemical principles, including the reaction mechanism and the Arrhenius equation. This demonstrates a deeper theoretical understanding that directly supports the experimental design. Furthermore, the \"Preliminary Testing\" section in Essay A is more detailed and showcases a more robust process of methodological refinement, justifying choices like the temperature range and the decision to omit cuvette caps. This shows a higher degree of personal engagement and critical thinking in the design phase.\\n\\nEssay B is also very strong, with a well-justified research question linked to a real-world application (anemia) and a thorough, replicable procedure. Its discussion on safety and waste disposal is slightly more specific than Essay A\\'s. However, the theoretical depth and the detailed account of preliminary work give Essay A a minor advantage in demonstrating a more complete and well-thought-out investigation from conception to execution.',\n    decision='essay_a'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 20.05049228668213,
+    "timestamp": "2025-10-28T04:20:28.787341",
+    "run_id": "20251028_041259_3ece",
+    "prompt_hash": "b754d4d2"
+  }
+}

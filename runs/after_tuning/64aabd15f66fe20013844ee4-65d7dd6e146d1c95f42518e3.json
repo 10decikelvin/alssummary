@@ -1,0 +1,16 @@
+{
+  "essay1_id": "64aabd15f66fe20013844ee4",
+  "essay2_id": "65d7dd6e146d1c95f42518e3",
+  "decision": "submission b is better",
+  "reasoning": "The research question in Submission B, 'To what extent does the temperature affect the rate of reaction of trypsin?', is more focused compared to Submission A's, which states 'which enzyme has the optimal performance in baking'. However, neither submission provides a sufficiently detailed research question. Submission B's method is clearly outlined with five distinct temperature levels, controlled variables like pH, and a clear method for measuring the reaction rate. In contrast, Submission A's method is generic and lacks specific details on how the experiment would be conducted. While Submission A mentions enzymes and baking, it doesn't provide specific information on how 'performance' will be measured, making the investigation vague. Submission B's methodology is far more scientifically rigorous and well-defined, making it the stronger submission. It also includes clear identification and management of independent, dependent, and controlled variables, which is absent in Submission A. Both submissions acknowledge the need for safety precautions, but Submission B provides a more specific list of risks and mitigation strategies.",
+  "raw_model_output": "Prediction(\n    reasoning=\"The research question in Submission B, 'To what extent does the temperature affect the rate of reaction of trypsin?', is more focused compared to Submission A's, which states 'which enzyme has the optimal performance in baking'. However, neither submission provides a sufficiently detailed research question. Submission B's method is clearly outlined with five distinct temperature levels, controlled variables like pH, and a clear method for measuring the reaction rate. In contrast, Submission A's method is generic and lacks specific details on how the experiment would be conducted. While Submission A mentions enzymes and baking, it doesn't provide specific information on how 'performance' will be measured, making the investigation vague. Submission B's methodology is far more scientifically rigorous and well-defined, making it the stronger submission. It also includes clear identification and management of independent, dependent, and controlled variables, which is absent in Submission A. Both submissions acknowledge the need for safety precautions, but Submission B provides a more specific list of risks and mitigation strategies.\",\n    decision='Submission B is better'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 46.551801919937134,
+    "timestamp": "2025-10-28T08:29:54.538453",
+    "run_id": "20251028_082826_77ee",
+    "prompt_hash": "6746104b"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "essay1_id": "62d242af8c5db80013f042b3",
+  "essay2_id": "63164d1ed7b5030014e0d5c1",
+  "decision": "essay1",
+  "reasoning": "Both essays present well-structured and viable investigations appropriate for the IB Chemistry level. Essay B outlines a classic and clear experiment on vitamin C titration, with a focused research question, relevant background information, and a logical method. It also includes a solid risk assessment and identifies pertinent limitations, such as the natural variation in vitamin C content between individual peppers.\n\nHowever, Essay A demonstrates a higher level of thoroughness and complexity in its exploration. The research question involves a more sophisticated analytical technique, back titration with EDTA, which is well-explained in the background section. The standout feature of Essay A is its exceptionally detailed and organized \"Variables\" section; the use of a table to explicitly state how each variable is controlled and, crucially, *why* it needs to be controlled, shows a superior understanding of experimental design. Furthermore, Essay A includes a \"Comparison of Method\" section, which justifies the choice of complexometric titration over other advanced techniques like FAAS, demonstrating a deeper level of research and critical thinking about the methodology. While Essay B is a strong and competent piece of work, Essay A's meticulous planning, justification of methodological choices, and more complex chemical principles make it the superior example for Criterion B.",
+  "raw_model_output": "Prediction(\n    reasoning='Both essays present well-structured and viable investigations appropriate for the IB Chemistry level. Essay B outlines a classic and clear experiment on vitamin C titration, with a focused research question, relevant background information, and a logical method. It also includes a solid risk assessment and identifies pertinent limitations, such as the natural variation in vitamin C content between individual peppers.\\n\\nHowever, Essay A demonstrates a higher level of thoroughness and complexity in its exploration. The research question involves a more sophisticated analytical technique, back titration with EDTA, which is well-explained in the background section. The standout feature of Essay A is its exceptionally detailed and organized \"Variables\" section; the use of a table to explicitly state how each variable is controlled and, crucially, *why* it needs to be controlled, shows a superior understanding of experimental design. Furthermore, Essay A includes a \"Comparison of Method\" section, which justifies the choice of complexometric titration over other advanced techniques like FAAS, demonstrating a deeper level of research and critical thinking about the methodology. While Essay B is a strong and competent piece of work, Essay A\\'s meticulous planning, justification of methodological choices, and more complex chemical principles make it the superior example for Criterion B.',\n    decision='essay_a'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 17.001516580581665,
+    "timestamp": "2025-10-28T04:18:17.542484",
+    "run_id": "20251028_041259_3ece",
+    "prompt_hash": "b754d4d2"
+  }
+}

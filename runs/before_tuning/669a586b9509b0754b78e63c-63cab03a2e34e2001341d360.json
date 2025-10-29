@@ -1,0 +1,16 @@
+{
+  "essay1_id": "669a586b9509b0754b78e63c",
+  "essay2_id": "63cab03a2e34e2001341d360",
+  "decision": "essay1",
+  "reasoning": "Essay A demonstrates a much stronger and more focused exploration of its research question, aligning perfectly with the expectations for Criterion B. Its research question is exemplary: \"What is the average rate of reaction (cm^3 s^-1) of 0.5 g of crushed antacids...in HCl solutions of varying concentrations...\" is specific, quantitative, and clearly defines all key parameters. In contrast, Essay B's research question is convoluted and relies on a poorly defined independent variable (\"pollution level\" which is qualitatively assessed, not measured). Essay A's methodology is presented with exceptional clarity in a step-by-step format, and crucially includes a \"Pre-test\" section, which shows a sophisticated, iterative approach to experimental design. Essay B's methodology, while chemically complex, is presented as a dense, hard-to-follow block of text. Furthermore, Essay A's treatment of variables is a model of good practice, explaining not just *what* is controlled, but *why* and *how*, whereas Essay B's is a simple list. Finally, the safety and environmental considerations in Essay A are more detailed and specific, particularly regarding waste disposal, compared to the more generic statements in Essay B. While Essay B tackles a more complex titration, its overall planning, focus, and clarity in the exploration phase are significantly weaker than Essay A's.",
+  "raw_model_output": "Prediction(\n    reasoning='Essay A demonstrates a much stronger and more focused exploration of its research question, aligning perfectly with the expectations for Criterion B. Its research question is exemplary: \"What is the average rate of reaction (cm^3 s^-1) of 0.5 g of crushed antacids...in HCl solutions of varying concentrations...\" is specific, quantitative, and clearly defines all key parameters. In contrast, Essay B\\'s research question is convoluted and relies on a poorly defined independent variable (\"pollution level\" which is qualitatively assessed, not measured). Essay A\\'s methodology is presented with exceptional clarity in a step-by-step format, and crucially includes a \"Pre-test\" section, which shows a sophisticated, iterative approach to experimental design. Essay B\\'s methodology, while chemically complex, is presented as a dense, hard-to-follow block of text. Furthermore, Essay A\\'s treatment of variables is a model of good practice, explaining not just *what* is controlled, but *why* and *how*, whereas Essay B\\'s is a simple list. Finally, the safety and environmental considerations in Essay A are more detailed and specific, particularly regarding waste disposal, compared to the more generic statements in Essay B. While Essay B tackles a more complex titration, its overall planning, focus, and clarity in the exploration phase are significantly weaker than Essay A\\'s.',\n    decision='essay_a'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 24.073797941207886,
+    "timestamp": "2025-10-28T04:13:55.001466",
+    "run_id": "20251028_041259_3ece",
+    "prompt_hash": "b754d4d2"
+  }
+}

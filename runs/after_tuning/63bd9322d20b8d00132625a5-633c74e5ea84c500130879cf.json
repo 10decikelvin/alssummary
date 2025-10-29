@@ -1,0 +1,16 @@
+{
+  "essay1_id": "63bd9322d20b8d00132625a5",
+  "essay2_id": "633c74e5ea84c500130879cf",
+  "decision": "essay1",
+  "reasoning": "Both essays present clear research questions and methodologies. Essay A, investigating how varying amounts of stearin affect the heat of combustion of candles, presents a more focused and detailed experimental design. While it omits a separate 'materials' list, the procedure section implicitly covers the necessary equipment. Crucially, its 'Safety, ethics and environment' section is robust, addressing specific risks like hot wax and proper disposal methods: \"...dispose of leftover wax with solid waste, not down the sink\". Essay B investigates the effect of anion type and temperature on solubility. While ambitious, its methodology section is less detailed, for example, it lists \"distilled water\" but not the specific volume used in each trial. Its safety section is generic, stating only to wear protective equipment. Though both have limitations, Essay A's clear methodology and more specific consideration of safety and environmental impact make it a slightly stronger scientific investigation.",
+  "raw_model_output": "Prediction(\n    reasoning='Both essays present clear research questions and methodologies. Essay A, investigating how varying amounts of stearin affect the heat of combustion of candles, presents a more focused and detailed experimental design. While it omits a separate \\'materials\\' list, the procedure section implicitly covers the necessary equipment. Crucially, its \\'Safety, ethics and environment\\' section is robust, addressing specific risks like hot wax and proper disposal methods: \"...dispose of leftover wax with solid waste, not down the sink\". Essay B investigates the effect of anion type and temperature on solubility. While ambitious, its methodology section is less detailed, for example, it lists \"distilled water\" but not the specific volume used in each trial. Its safety section is generic, stating only to wear protective equipment. Though both have limitations, Essay A\\'s clear methodology and more specific consideration of safety and environmental impact make it a slightly stronger scientific investigation.',\n    decision='essay_a'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 20.480258464813232,
+    "timestamp": "2025-10-28T17:34:11.685112",
+    "run_id": "20251028_082826_77ee",
+    "prompt_hash": "6746104b"
+  }
+}

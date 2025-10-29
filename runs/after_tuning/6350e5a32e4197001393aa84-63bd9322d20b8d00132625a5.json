@@ -1,0 +1,16 @@
+{
+  "essay1_id": "6350e5a32e4197001393aa84",
+  "essay2_id": "63bd9322d20b8d00132625a5",
+  "decision": "essay1",
+  "reasoning": "While both submissions demonstrate a good understanding of experimental design, Essay A is superior due to its more thorough and structured approach. The research question in Essay A is more specific, including the sample size (\"100cm3\") and controlled variable (\"when temperature is kept constant\"), compared to Essay B's more general question. Essay A provides extensive background information on both dissolved oxygen and the titration method, which is completely missing from the provided excerpt for Essay B. Furthermore, Essay A clearly delineates its independent, dependent, and controlled variables in a table with justifications, a critical component that is absent in the submission for Essay B. Both essays adequately address safety and environmental concerns. However, the comprehensive and well-structured nature of Essay A's experimental plan makes it a stronger example of scientific methodology.",
+  "raw_model_output": "Prediction(\n    reasoning='While both submissions demonstrate a good understanding of experimental design, Essay A is superior due to its more thorough and structured approach. The research question in Essay A is more specific, including the sample size (\"100cm3\") and controlled variable (\"when temperature is kept constant\"), compared to Essay B\\'s more general question. Essay A provides extensive background information on both dissolved oxygen and the titration method, which is completely missing from the provided excerpt for Essay B. Furthermore, Essay A clearly delineates its independent, dependent, and controlled variables in a table with justifications, a critical component that is absent in the submission for Essay B. Both essays adequately address safety and environmental concerns. However, the comprehensive and well-structured nature of Essay A\\'s experimental plan makes it a stronger example of scientific methodology.',\n    decision='essay_a'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 43.75766348838806,
+    "timestamp": "2025-10-28T08:33:10.302374",
+    "run_id": "20251028_082826_77ee",
+    "prompt_hash": "6746104b"
+  }
+}

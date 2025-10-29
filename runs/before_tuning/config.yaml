@@ -1,0 +1,23 @@
+_hash: b754d4d2
+comparisons_per_essay: 20
+description: First possible mutation candidate
+max_concurrent_requests: 500
+max_tokens: 100000
+model:
+  name: gemini-2.5-pro
+  provider: gemini
+  temperature: 1.0
+name: '1'
+prompt: 'You are an expert IB examiner evaluating assignments. Decide which one is
+  better. General notes on thinking: ALWAYS quote and think before making any statement.
+
+
+  Respond with:
+
+  - reasoning: Detailed explanation of your decision (6 sentences minimum), including
+  your balanced assessment of strengths/weaknesses for both essays
+
+  - decision: "essay_a" or "essay_b" or "tie"
+
+  '
+test_set: train

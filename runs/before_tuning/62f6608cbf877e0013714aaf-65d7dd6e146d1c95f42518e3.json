@@ -1,0 +1,16 @@
+{
+  "essay1_id": "62f6608cbf877e0013714aaf",
+  "essay2_id": "65d7dd6e146d1c95f42518e3",
+  "decision": "a",
+  "reasoning": "This response has been well structured to answer the prompt in full. Both responses have successfully explained in detail how the different factors (concentration of acid, temperature, presence of catalyst, surface area of tablets and particle size) affect the a successful reaction based on the collision theory, which forms the basis for this investigation. Both essays provided great discussions on all the variables and how they could be controlled as well as their methods which followed logically and concisely. However, essay A is stronger than essay B as it has a wider range of concentrations for the independent variable with five different concentrations whereas essay B only used three concentrations. Additionally, essay A also includes a detailed materials list along with the apparatus, which B lacks. Essay A had a much more detailed and complete method and included the necessary calculations. Essay A is slightly better as it addresses all aspects of an investigation fully.",
+  "raw_model_output": "Prediction(\n    reasoning='This response has been well structured to answer the prompt in full. Both responses have successfully explained in detail how the different factors (concentration of acid, temperature, presence of catalyst, surface area of tablets and particle size) affect the a successful reaction based on the collision theory, which forms the basis for this investigation. Both essays provided great discussions on all the variables and how they could be controlled as well as their methods which followed logically and concisely. However, essay A is stronger than essay B as it has a wider range of concentrations for the independent variable with five different concentrations whereas essay B only used three concentrations. Additionally, essay A also includes a detailed materials list along with the apparatus, which B lacks. Essay A had a much more detailed and complete method and included the necessary calculations. Essay A is slightly better as it addresses all aspects of an investigation fully.',\n    decision='a'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 43.24613380432129,
+    "timestamp": "2025-10-28T04:14:41.451974",
+    "run_id": "20251028_041259_3ece",
+    "prompt_hash": "b754d4d2"
+  }
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison Benchmark Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧪 IB Chemistry Criterion B Comparison Benchmark</h1>
+            <p>Analyze pairwise comparison results and ranking accuracy</p>
+        </header>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="runSelector">Select Run:</label>
+                <select id="runSelector">
+                    <option value="">Loading...</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="aggregationMethod">Ranking Method:</label>
+                <select id="aggregationMethod">
+                    <option value="net-wins">Net Wins (wins - losses)</option>
+                    <option value="feedback-arc">Feedback Arc Set (minimize contradictions)</option>
+                </select>
+            </div>
+
+            <div style="display: flex; gap: 15px; width: 100%; flex-wrap: wrap;">
+                <div class="control-group perturbation-controls" style="flex: 1; min-width: 280px; border-left-color: #dc2626;">
+                    <label style="font-weight: 700; color: #333;">⚠️ Problem Nodes (Adversarial)</label>
+                    <label for="numProblemNodes" style="margin-top: 8px;">
+                        Problem Nodes: <span id="numProblemNodesValue">0</span>
+                    </label>
+                    <input type="range" id="numProblemNodes" min="0" max="10" value="0" step="1">
+                    <label for="problemNodeWinProb" style="margin-top: 8px;">
+                        Win Probability: <span id="problemNodeWinProbValue">50%</span>
+                    </label>
+                    <input type="range" id="problemNodeWinProb" min="0" max="100" value="50" step="5">
+                    <p style="font-size: 0.85em; color: #666; margin-top: 5px;">
+                        Add synthetic essays with random comparison outcomes.
+                    </p>
+                </div>
+
+                <div class="control-group perturbation-controls" style="flex: 1; min-width: 280px; border-left-color: #d97706;">
+                    <label style="font-weight: 700; color: #333;">✂️ Random Edge Cutting</label>
+                    <label for="edgeCutProbability" style="margin-top: 8px;">
+                        Cut Probability: <span id="edgeCutProbabilityValue">0%</span>
+                    </label>
+                    <input type="range" id="edgeCutProbability" min="0" max="100" value="0" step="1">
+                    <p style="font-size: 0.85em; color: #666; margin-top: 5px;">
+                        Randomly remove comparison edges to test sparsity.
+                    </p>
+                </div>
+
+                <div class="control-group perturbation-controls" style="flex: 1; min-width: 280px; border-left-color: #059669;">
+                    <label style="font-weight: 700; color: #333;">🎲 Random Decision Flipping</label>
+                    <label for="flipProbability" style="margin-top: 8px;">
+                        Flip Probability: <span id="flipProbabilityValue">0%</span>
+                    </label>
+                    <input type="range" id="flipProbability" min="0" max="100" value="0" step="1">
+                    <p style="font-size: 0.85em; color: #666; margin-top: 5px;">
+                        Randomly flip LLM decisions to test ranking robustness.
+                    </p>
+                </div>
+
+                <div class="control-group" style="flex: 0 0 auto;">
+                    <label for="numTrials">Trials:</label>
+                    <select id="numTrials" style="padding: 8px 12px;">
+                        <option value="1">1 (fast)</option>
+                        <option value="5">5</option>
+                        <option value="10" selected>10</option>
+                        <option value="20">20</option>
+                        <option value="50">50 (slow)</option>
+                    </select>
+                    <p style="font-size: 0.85em; color: #666; margin-top: 5px;">
+                        Multiple trials provide mean ± SE.
+                    </p>
+                </div>
+            </div>
+
+            <p style="font-size: 0.85em; color: #666; margin-top: 10px; padding: 10px; background: #f9fafb; border-radius: 4px;">
+                <strong>Intervention Pipeline:</strong> (1) Symmetric contradictions are automatically removed, then (2) problem nodes are added, then (3) edges are cut randomly, then (4) remaining decisions are flipped randomly. This order ensures interventions stack predictably.
+            </p>
+
+            <div style="display: flex; gap: 10px; margin-top: 10px;">
+                <button id="analyzeButton" disabled>Analyze Run</button>
+                <button id="refreshButton">Refresh Runs</button>
+            </div>
+        </div>
+
+        <div id="loading" class="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Loading and analyzing data...</p>
+        </div>
+
+        <div id="error" class="error" style="display: none;"></div>
+
+        <div id="results" style="display: none;">
+            <div class="details-section">
+                <h3>Accuracy by Grade Difference</h3>
+                <p style="font-size: 0.9em; color: #666; margin-bottom: 15px;">
+                    How well does the model distinguish essays with different quality gaps?
+                    Delta = |Grade A - Grade B|
+                </p>
+                <div id="accuracyByDelta"></div>
+            </div>
+
+            <div id="perturbationComparison" style="display: none; margin-bottom: 30px; padding: 15px; background: #fff3cd; border-left: 4px solid #ffc107; border-radius: 4px;">
+                <h3 style="margin-top: 0; color: #856404;">⚠️ Perturbations Active</h3>
+                <div id="perturbationStatus" style="color: #856404;"></div>
+            </div>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <h3>Run Status</h3>
+                    <div id="runStatus"></div>
+                </div>
+
+                <div class="metric-card">
+                    <h3>Comparison Stats</h3>
+                    <div id="comparisonStats"></div>
+                </div>
+
+                <div class="metric-card">
+                    <h3>Model Performance</h3>
+                    <div id="modelStats"></div>
+                </div>
+
+                <div class="metric-card" id="perturbedMetricsCard" style="display: none;">
+                    <h3>Perturbed Performance</h3>
+                    <div id="perturbedStats"></div>
+                </div>
+            </div>
+
+            <div class="charts-section">
+                <div class="chart-container">
+                    <h3>Predicted vs Ground Truth Ranking</h3>
+                    <canvas id="rankingChart"></canvas>
+                </div>
+
+                <div class="chart-container">
+                    <h3>Essay Score Distribution</h3>
+                    <canvas id="distributionChart"></canvas>
+                </div>
+            </div>
+
+            <div class="details-section">
+                <h3>Detailed Rankings</h3>
+                <div id="rankingsTable"></div>
+            </div>
+
+            <div class="details-section">
+                <h3>Inaccurate Predictions</h3>
+                <p style="font-size: 0.9em; color: #666; margin-bottom: 15px;">
+                    Cases where the model was self-consistent (same winner in both A→B and B→A),
+                    but predicted the wrong winner compared to ground truth Criterion B marks.
+                    These reveal systematic judgment errors in the model's evaluation.
+                </p>
+                <div id="inaccuratePredictions"></div>
+            </div>
+
+            <div class="details-section">
+                <h3>Order-Reversal Consistency</h3>
+                <p style="font-size: 0.9em; color: #666; margin-bottom: 15px;">
+                    With circular sampling, every pair is compared in both directions (A→B and B→A).
+                    The model should ideally give consistent results regardless of presentation order.
+                    Inconsistencies reveal position bias in the model's decision-making.
+                </p>
+                <div id="contradictions"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load modules in dependency order -->
+    <script src="utils.js"></script>
+    <script src="perturbation.js"></script>
+    <script src="aggregation.js"></script>
+    <script src="accuracy.js"></script>
+    <script src="ui.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

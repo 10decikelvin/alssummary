@@ -1,0 +1,16 @@
+{
+  "essay1_id": "622cdf5d9a37d700138c33fc",
+  "essay2_id": "63bd9322d20b8d00132625a5",
+  "decision": "essay1",
+  "reasoning": "While both submissions present interesting investigations, Essay A is demonstrably stronger. The core weakness of Essay B is the complete lack of a background section, which is critical for contextualizing the research question. Essay A, in contrast, provides a well-researched background, explaining the Maillard reaction and identifying a specific gap in the existing literature (moving from model systems to real food). This establishes a clear and compelling rationale for the investigation. Furthermore, Essay A's methodology is more detailed and rigorous, including the preparation of a buffer solution and a comprehensive list of controlled variables with justifications. Although Essay B excels in its dedicated 'Safety, Ethics and Environment' section, which is more thorough than Essay A's brief risk assessment, this does not outweigh the fundamental shortcomings in providing context and detailed experimental design. Essay A\u2019s research question is also slightly more sophisticated, incorporating the method of measurement directly into its phrasing. Overall, Essay A presents a more complete and scientifically sound research proposal.",
+  "raw_model_output": "Prediction(\n    reasoning=\"While both submissions present interesting investigations, Essay A is demonstrably stronger. The core weakness of Essay B is the complete lack of a background section, which is critical for contextualizing the research question. Essay A, in contrast, provides a well-researched background, explaining the Maillard reaction and identifying a specific gap in the existing literature (moving from model systems to real food). This establishes a clear and compelling rationale for the investigation. Furthermore, Essay A's methodology is more detailed and rigorous, including the preparation of a buffer solution and a comprehensive list of controlled variables with justifications. Although Essay B excels in its dedicated 'Safety, Ethics and Environment' section, which is more thorough than Essay A's brief risk assessment, this does not outweigh the fundamental shortcomings in providing context and detailed experimental design. Essay A\u2019s research question is also slightly more sophisticated, incorporating the method of measurement directly into its phrasing. Overall, Essay A presents a more complete and scientifically sound research proposal.\",\n    decision='essay_a'\n)",
+  "metadata": {
+    "model": "gemini/gemini-2.5-pro",
+    "temperature": 1.0,
+    "tokens_used": 0,
+    "latency_seconds": 50.45185351371765,
+    "timestamp": "2025-10-28T08:36:20.175096",
+    "run_id": "20251028_082826_77ee",
+    "prompt_hash": "6746104b"
+  }
+}

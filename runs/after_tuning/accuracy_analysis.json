@@ -1,0 +1,352 @@
+{
+  "run_id": "20251028_082826_77ee",
+  "test_set": "train",
+  "prompt_name": "1_1_1",
+  "model": "gemini/gemini-2.5-pro",
+  "statistics": {
+    "total_comparisons": 960,
+    "bidirectional_pairs": 480,
+    "contradictions": 51,
+    "analyzable_pairs": 362,
+    "correct_predictions": 262,
+    "incorrect_predictions": 100,
+    "overall_accuracy": 72.38,
+    "nonzero_delta_accuracy": 75.5
+  },
+  "accuracy_by_delta": {
+    "1": {
+      "total": 184,
+      "correct": 125,
+      "incorrect": 59,
+      "accuracy": 67.93
+    },
+    "2": {
+      "total": 87,
+      "correct": 73,
+      "incorrect": 14,
+      "accuracy": 83.91
+    },
+    "3": {
+      "total": 25,
+      "correct": 25,
+      "incorrect": 0,
+      "accuracy": 100.0
+    },
+    "0": {
+      "total": 64,
+      "correct": 37,
+      "incorrect": 27,
+      "accuracy": 57.81
+    },
+    "4": {
+      "total": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "accuracy": 100.0
+    }
+  },
+  "contradictions": [
+    {
+      "essay1": "6203feea59dfc50013182ca9",
+      "essay2": "62d242af8c5db80013f042b3",
+      "forward_decision": "essay1",
+      "backward_decision": "essay1"
+    },
+    {
+      "essay1": "6203feea59dfc50013182ca9",
+      "essay2": "63164d1ed7b5030014e0d5c1",
+      "forward_decision": "essay2",
+      "backward_decision": "essay2"
+    },
+    {
+      "essay1": "62233e0f4c53040015029c7e",
+      "essay2": "62db31165dddd600131f9724",
+      "forward_decision": "essay2",
+      "backward_decision": "essay2"
+    },
+    {
+      "essay1": "62233e0f4c53040015029c7e",
+      "essay2": "6374a78147202300134464de",
+      "forward_decision": "essay2",
+      "backward_decision": "essay2"
+    },
+    {
+      "essay1": "622cdf5d9a37d700138c33fc",
+      "essay2": "63164d1ed7b5030014e0d5c1",
+      "forward_decision": "essay2",
+      "backward_decision": "essay2"
+    },
+    {
+      "essay1": "622cdf5d9a37d700138c33fc",
+      "essay2": "66b0c5fb7a47d022866f921c",
+      "forward_decision": "essay2",
+      "backward_decision": "essay2"
+    },
+    {
+      "essay1": "62483f70b4c9ac00130afa08",
+      "essay2": "63c6d1ecdbb839001334ca83",
+      "forward_decision": "essay2",
+      "backward_decision": "essay2"
+    },
+    {
+      "essay1": "6258bbdfb4c9ac00130b12af",
+      "essay2": "63d73c18f548e700143802bc",
+      "forward_decision": "essay2",
+      "backward_decision": "essay2"
+    },
+    {
+      "essay1": "6258bbdfb4c9ac00130b12af",
+      "essay2": "63de57e86672960013c5fb3c",
+      "forward_decision": "essay1",
+      "backward_decision": "essay1"
+    },
+    {
+      "essay1": "62d242af8c5db80013f042b3",
+      "essay2": "65144fb55f86deff50672ddc",
+      "forward_decision": "essay1",
+      "backward_decision": "essay1"
+    },
+    {
+      "essay1": "62d242af8c5db80013f042b3",
+      "essay2": "668adc464a9db8886ca2f499",
+      "forward_decision": "essay2",
+      "backward_decision": "essay2"
+    },
+    {
+      "essay1": "62d2fec1efe3ca0013f9a37c",
+      "essay2": "63305b2723583a0013009278",
+      "forward_decision": "essay2",
+      "backward_decision": "essay2"
+    },
+    {
+      "essay1": "62d2fec1efe3ca0013f9a37c",
+      "essay2": "63498e0c0c67e90015358f98",
+      "forward_decision": "essay2",
+      "backward_decision": "essay2"
+    },
+    {
+      "essay1": "62d2fec1efe3ca0013f9a37c",
+      "essay2": "63e72a19e1386a0014009089",
+      "forward_decision": "essay1",
+      "backward_decision": "essay1"
+    },
+    {
+      "essay1": "62d2fec1efe3ca0013f9a37c",
+      "essay2": "65d7dd6e146d1c95f42518e3",
+      "forward_decision": "essay1",
+      "backward_decision": "essay1"
+    },
+    {
+      "essay1": "62db31165dddd600131f9724",
+      "essay2": "6330aef523583a00130093b9",
+      "forward_decision": "essay2",
+      "backward_decision": "essay2"
+    },
+    {
+      "essay1": "62f6608cbf877e0013714aaf",
+      "essay2": "63c6d1ecdbb839001334ca83",
+      "forward_decision": "essay2",
+      "backward_decision": "essay2"
+    },
+    {
+      "essay1": "62f6608cbf877e0013714aaf",
+      "essay2": "63d73c18f548e700143802bc",
+      "forward_decision": "essay2",
+      "backward_decision": "essay2"
+    },
+    {
+      "essay1": "62f6608cbf877e0013714aaf",
+      "essay2": "65d7dd6e146d1c95f42518e3",
+      "forward_decision": "essay1",
+      "backward_decision": "essay1"
+    },
+    {
+      "essay1": "6300e1d08483960013c96f7a",
+      "essay2": "63bd9322d20b8d00132625a5",
+      "forward_decision": "essay2",
+      "backward_decision": "essay2"
+    }
+  ],
+  "worst_errors": [
+    {
+      "essay1_id": "6203feea59dfc50013182ca9",
+      "essay2_id": "66b0c5fb7a47d022866f921c",
+      "grade1": 5,
+      "grade2": 3,
+      "truth_winner": "6203feea59dfc50013182ca9",
+      "pred_winner": "66b0c5fb7a47d022866f921c",
+      "delta": 2
+    },
+    {
+      "essay1_id": "62483f70b4c9ac00130afa08",
+      "essay2_id": "66a251f23a505e140ef5f51d",
+      "grade1": 6,
+      "grade2": 4,
+      "truth_winner": "62483f70b4c9ac00130afa08",
+      "pred_winner": "66a251f23a505e140ef5f51d",
+      "delta": 2
+    },
+    {
+      "essay1_id": "62d2fec1efe3ca0013f9a37c",
+      "essay2_id": "633b0582ea84c5001308748a",
+      "grade1": 4,
+      "grade2": 6,
+      "truth_winner": "633b0582ea84c5001308748a",
+      "pred_winner": "62d2fec1efe3ca0013f9a37c",
+      "delta": 2
+    },
+    {
+      "essay1_id": "63164d1ed7b5030014e0d5c1",
+      "essay2_id": "66b0c5fb7a47d022866f921c",
+      "grade1": 5,
+      "grade2": 3,
+      "truth_winner": "63164d1ed7b5030014e0d5c1",
+      "pred_winner": "66b0c5fb7a47d022866f921c",
+      "delta": 2
+    },
+    {
+      "essay1_id": "632a390223583a00130064d1",
+      "essay2_id": "65d7dd6e146d1c95f42518e3",
+      "grade1": 6,
+      "grade2": 4,
+      "truth_winner": "632a390223583a00130064d1",
+      "pred_winner": "tie",
+      "delta": 2
+    },
+    {
+      "essay1_id": "633b0582ea84c5001308748a",
+      "essay2_id": "63498e0c0c67e90015358f98",
+      "grade1": 6,
+      "grade2": 4,
+      "truth_winner": "633b0582ea84c5001308748a",
+      "pred_winner": "63498e0c0c67e90015358f98",
+      "delta": 2
+    },
+    {
+      "essay1_id": "633b0582ea84c5001308748a",
+      "essay2_id": "63e22f64e1386a0014006310",
+      "grade1": 6,
+      "grade2": 4,
+      "truth_winner": "633b0582ea84c5001308748a",
+      "pred_winner": "63e22f64e1386a0014006310",
+      "delta": 2
+    },
+    {
+      "essay1_id": "633b0582ea84c5001308748a",
+      "essay2_id": "65d7dd6e146d1c95f42518e3",
+      "grade1": 6,
+      "grade2": 4,
+      "truth_winner": "633b0582ea84c5001308748a",
+      "pred_winner": "tie",
+      "delta": 2
+    },
+    {
+      "essay1_id": "63de57e86672960013c5fb3c",
+      "essay2_id": "65d7dd6e146d1c95f42518e3",
+      "grade1": 6,
+      "grade2": 4,
+      "truth_winner": "63de57e86672960013c5fb3c",
+      "pred_winner": "tie",
+      "delta": 2
+    },
+    {
+      "essay1_id": "63e72a19e1386a0014009089",
+      "essay2_id": "66b0c5fb7a47d022866f921c",
+      "grade1": 5,
+      "grade2": 3,
+      "truth_winner": "63e72a19e1386a0014009089",
+      "pred_winner": "66b0c5fb7a47d022866f921c",
+      "delta": 2
+    },
+    {
+      "essay1_id": "63f63f978fac8600148a5333",
+      "essay2_id": "65d7dd6e146d1c95f42518e3",
+      "grade1": 6,
+      "grade2": 4,
+      "truth_winner": "63f63f978fac8600148a5333",
+      "pred_winner": "65d7dd6e146d1c95f42518e3",
+      "delta": 2
+    },
+    {
+      "essay1_id": "64749d0bc042b50013daece4",
+      "essay2_id": "66a251f23a505e140ef5f51d",
+      "grade1": 6,
+      "grade2": 4,
+      "truth_winner": "64749d0bc042b50013daece4",
+      "pred_winner": "66a251f23a505e140ef5f51d",
+      "delta": 2
+    },
+    {
+      "essay1_id": "64aabd15f66fe20013844ee4",
+      "essay2_id": "66a7cbb93a505e140e25b22f",
+      "grade1": 5,
+      "grade2": 3,
+      "truth_winner": "64aabd15f66fe20013844ee4",
+      "pred_winner": "66a7cbb93a505e140e25b22f",
+      "delta": 2
+    },
+    {
+      "essay1_id": "64aabd15f66fe20013844ee4",
+      "essay2_id": "66b0c5fb7a47d022866f921c",
+      "grade1": 5,
+      "grade2": 3,
+      "truth_winner": "64aabd15f66fe20013844ee4",
+      "pred_winner": "66b0c5fb7a47d022866f921c",
+      "delta": 2
+    },
+    {
+      "essay1_id": "6203feea59dfc50013182ca9",
+      "essay2_id": "622cdf5d9a37d700138c33fc",
+      "grade1": 5,
+      "grade2": 4,
+      "truth_winner": "6203feea59dfc50013182ca9",
+      "pred_winner": "622cdf5d9a37d700138c33fc",
+      "delta": 1
+    },
+    {
+      "essay1_id": "6203feea59dfc50013182ca9",
+      "essay2_id": "66a251f23a505e140ef5f51d",
+      "grade1": 5,
+      "grade2": 4,
+      "truth_winner": "6203feea59dfc50013182ca9",
+      "pred_winner": "66a251f23a505e140ef5f51d",
+      "delta": 1
+    },
+    {
+      "essay1_id": "62233e0f4c53040015029c7e",
+      "essay2_id": "62d242af8c5db80013f042b3",
+      "grade1": 5,
+      "grade2": 4,
+      "truth_winner": "62233e0f4c53040015029c7e",
+      "pred_winner": "62d242af8c5db80013f042b3",
+      "delta": 1
+    },
+    {
+      "essay1_id": "62233e0f4c53040015029c7e",
+      "essay2_id": "63498e0c0c67e90015358f98",
+      "grade1": 5,
+      "grade2": 4,
+      "truth_winner": "62233e0f4c53040015029c7e",
+      "pred_winner": "63498e0c0c67e90015358f98",
+      "delta": 1
+    },
+    {
+      "essay1_id": "62233e0f4c53040015029c7e",
+      "essay2_id": "65d7dd6e146d1c95f42518e3",
+      "grade1": 5,
+      "grade2": 4,
+      "truth_winner": "62233e0f4c53040015029c7e",
+      "pred_winner": "tie",
+      "delta": 1
+    },
+    {
+      "essay1_id": "622cdf5d9a37d700138c33fc",
+      "essay2_id": "63bd9322d20b8d00132625a5",
+      "grade1": 4,
+      "grade2": 5,
+      "truth_winner": "63bd9322d20b8d00132625a5",
+      "pred_winner": "622cdf5d9a37d700138c33fc",
+      "delta": 1
+    }
+  ]
+}
