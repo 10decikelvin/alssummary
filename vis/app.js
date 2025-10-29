@@ -72,10 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Load available runs
 async function loadRuns() {
     try {
-        const response = await fetch('/runs/', {
-            headers: { 'Accept': 'application/json' }
-        });
-        const runs = await response.json();
+        const runs = ['before_tuning', 'after_tuning'];
 
         const selector = document.getElementById('runSelector');
         selector.innerHTML = '<option value="">-- Select a run --</option>';
@@ -130,9 +127,7 @@ async function analyzeCurrentRun() {
         await Promise.all(feedbackPromises);
 
         // Load all comparison files
-        const files = await fetch(`/runs/${currentRun}/`, {
-            headers: { 'Accept': 'application/json' }
-        }).then(r => r.json());
+        const files = await fetch(`/runs/${currentRun}/out.txt`).then(r => r.text()).then(t => t.split("\n"));
 
         const comparisonFiles = files.filter(f =>
             f.endsWith('.json') &&
